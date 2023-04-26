@@ -43,6 +43,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             label9 = new Label();
             tb_matKhau = new Guna.UI2.WinForms.Guna2TextBox();
             label8 = new Label();
@@ -61,7 +63,14 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
+            guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            label10 = new Label();
+            label11 = new Label();
+            label12 = new Label();
             ((System.ComponentModel.ISupportInitialize)btn_close).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label9
@@ -70,7 +79,7 @@
             label9.BackColor = Color.Transparent;
             label9.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label9.ForeColor = Color.FromArgb(130, 158, 219);
-            label9.Location = new Point(14, 428);
+            label9.Location = new Point(14, 421);
             label9.Name = "label9";
             label9.Size = new Size(78, 19);
             label9.TabIndex = 80;
@@ -91,7 +100,7 @@
             tb_matKhau.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             tb_matKhau.ForeColor = Color.Black;
             tb_matKhau.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tb_matKhau.Location = new Point(11, 451);
+            tb_matKhau.Location = new Point(11, 444);
             tb_matKhau.Margin = new Padding(4, 4, 4, 4);
             tb_matKhau.Name = "tb_matKhau";
             tb_matKhau.PasswordChar = '\0';
@@ -108,7 +117,7 @@
             label8.BackColor = Color.Transparent;
             label8.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label8.ForeColor = Color.FromArgb(130, 158, 219);
-            label8.Location = new Point(14, 352);
+            label8.Location = new Point(14, 342);
             label8.Name = "label8";
             label8.Size = new Size(51, 19);
             label8.TabIndex = 78;
@@ -129,7 +138,7 @@
             tb_email.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             tb_email.ForeColor = Color.Black;
             tb_email.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tb_email.Location = new Point(11, 375);
+            tb_email.Location = new Point(11, 364);
             tb_email.Margin = new Padding(4, 4, 4, 4);
             tb_email.Name = "tb_email";
             tb_email.PasswordChar = '\0';
@@ -146,7 +155,7 @@
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label6.ForeColor = Color.FromArgb(130, 158, 219);
-            label6.Location = new Point(16, 278);
+            label6.Location = new Point(16, 264);
             label6.Name = "label6";
             label6.Size = new Size(61, 19);
             label6.TabIndex = 76;
@@ -167,7 +176,7 @@
             tb_diaChi.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             tb_diaChi.ForeColor = Color.Black;
             tb_diaChi.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tb_diaChi.Location = new Point(13, 301);
+            tb_diaChi.Location = new Point(13, 287);
             tb_diaChi.Margin = new Padding(4, 4, 4, 4);
             tb_diaChi.Name = "tb_diaChi";
             tb_diaChi.PasswordChar = '\0';
@@ -193,7 +202,7 @@
             tb_hoTen.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             tb_hoTen.ForeColor = Color.Black;
             tb_hoTen.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tb_hoTen.Location = new Point(13, 147);
+            tb_hoTen.Location = new Point(13, 133);
             tb_hoTen.Margin = new Padding(4, 4, 4, 4);
             tb_hoTen.Name = "tb_hoTen";
             tb_hoTen.PasswordChar = '\0';
@@ -209,7 +218,7 @@
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label5.ForeColor = Color.FromArgb(130, 158, 219);
-            label5.Location = new Point(13, 124);
+            label5.Location = new Point(17, 110);
             label5.Name = "label5";
             label5.Size = new Size(81, 19);
             label5.TabIndex = 73;
@@ -234,7 +243,7 @@
             btn_dangNhap.BackColor = Color.Transparent;
             btn_dangNhap.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btn_dangNhap.ForeColor = Color.FromArgb(130, 158, 219);
-            btn_dangNhap.Location = new Point(209, 635);
+            btn_dangNhap.Location = new Point(193, 640);
             btn_dangNhap.Name = "btn_dangNhap";
             btn_dangNhap.Size = new Size(124, 18);
             btn_dangNhap.TabIndex = 71;
@@ -246,7 +255,7 @@
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label7.ForeColor = Color.FromArgb(130, 158, 219);
-            label7.Location = new Point(58, 635);
+            label7.Location = new Point(42, 640);
             label7.Name = "label7";
             label7.Size = new Size(155, 18);
             label7.TabIndex = 70;
@@ -265,7 +274,7 @@
             btn_dangKy.FillColor2 = Color.FromArgb(128, 223, 217);
             btn_dangKy.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btn_dangKy.ForeColor = Color.White;
-            btn_dangKy.Location = new Point(74, 580);
+            btn_dangKy.Location = new Point(58, 585);
             btn_dangKy.Name = "btn_dangKy";
             btn_dangKy.ShadowDecoration.CustomizableEdges = customizableEdges11;
             btn_dangKy.Size = new Size(237, 52);
@@ -278,7 +287,7 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = Color.FromArgb(130, 158, 219);
-            label4.Location = new Point(17, 498);
+            label4.Location = new Point(14, 500);
             label4.Name = "label4";
             label4.Size = new Size(145, 19);
             label4.TabIndex = 68;
@@ -299,7 +308,7 @@
             tb_nhapLaiMatKhau.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             tb_nhapLaiMatKhau.ForeColor = Color.Black;
             tb_nhapLaiMatKhau.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tb_nhapLaiMatKhau.Location = new Point(14, 521);
+            tb_nhapLaiMatKhau.Location = new Point(14, 523);
             tb_nhapLaiMatKhau.Margin = new Padding(4, 4, 4, 4);
             tb_nhapLaiMatKhau.Name = "tb_nhapLaiMatKhau";
             tb_nhapLaiMatKhau.PasswordChar = '\0';
@@ -325,7 +334,7 @@
             tb_soDT.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             tb_soDT.ForeColor = Color.Black;
             tb_soDT.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tb_soDT.Location = new Point(12, 225);
+            tb_soDT.Location = new Point(12, 211);
             tb_soDT.Margin = new Padding(4, 4, 4, 4);
             tb_soDT.Name = "tb_soDT";
             tb_soDT.PasswordChar = '\0';
@@ -341,7 +350,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.FromArgb(130, 158, 219);
-            label3.Location = new Point(12, 202);
+            label3.Location = new Point(12, 188);
             label3.Name = "label3";
             label3.Size = new Size(109, 19);
             label3.TabIndex = 65;
@@ -353,7 +362,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.FromArgb(130, 158, 219);
-            label2.Location = new Point(13, 88);
+            label2.Location = new Point(13, 74);
             label2.Name = "label2";
             label2.Size = new Size(298, 18);
             label2.TabIndex = 64;
@@ -365,19 +374,84 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.FromArgb(130, 158, 219);
-            label1.Location = new Point(12, 59);
+            label1.Location = new Point(12, 45);
             label1.Name = "label1";
             label1.Size = new Size(262, 29);
             label1.TabIndex = 63;
             label1.Text = "Rất vui được gặp bạn";
+            // 
+            // guna2CirclePictureBox2
+            // 
+            guna2CirclePictureBox2.Image = Properties.Resources.facebook;
+            guna2CirclePictureBox2.ImageRotate = 0F;
+            guna2CirclePictureBox2.Location = new Point(224, 709);
+            guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
+            guna2CirclePictureBox2.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            guna2CirclePictureBox2.Size = new Size(40, 40);
+            guna2CirclePictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            guna2CirclePictureBox2.TabIndex = 85;
+            guna2CirclePictureBox2.TabStop = false;
+            // 
+            // guna2CirclePictureBox1
+            // 
+            guna2CirclePictureBox1.Image = Properties.Resources.google;
+            guna2CirclePictureBox1.ImageRotate = 0F;
+            guna2CirclePictureBox1.Location = new Point(103, 709);
+            guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges17;
+            guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            guna2CirclePictureBox1.Size = new Size(40, 40);
+            guna2CirclePictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            guna2CirclePictureBox1.TabIndex = 84;
+            guna2CirclePictureBox1.TabStop = false;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.ForeColor = Color.FromArgb(130, 158, 219);
+            label10.Location = new Point(242, 673);
+            label10.Name = "label10";
+            label10.Size = new Size(87, 15);
+            label10.TabIndex = 83;
+            label10.Text = "________________";
+            label10.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.BackColor = Color.Transparent;
+            label11.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label11.ForeColor = Color.FromArgb(130, 158, 219);
+            label11.Location = new Point(103, 673);
+            label11.Name = "label11";
+            label11.Size = new Size(142, 18);
+            label11.TabIndex = 82;
+            label11.Text = "Hoặc đăng ký bằng";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.ForeColor = Color.FromArgb(130, 158, 219);
+            label12.Location = new Point(17, 670);
+            label12.Name = "label12";
+            label12.Size = new Size(87, 15);
+            label12.TabIndex = 81;
+            label12.Text = "________________";
+            label12.TextAlign = ContentAlignment.TopCenter;
             // 
             // DangKy
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(371, 664);
+            ClientSize = new Size(371, 772);
             ControlBox = false;
+            Controls.Add(guna2CirclePictureBox2);
+            Controls.Add(guna2CirclePictureBox1);
+            Controls.Add(label10);
+            Controls.Add(label11);
+            Controls.Add(label12);
             Controls.Add(label9);
             Controls.Add(tb_matKhau);
             Controls.Add(label8);
@@ -401,6 +475,8 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "DangKy";
             ((System.ComponentModel.ISupportInitialize)btn_close).EndInit();
+            ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -425,5 +501,10 @@
         private Label label3;
         private Label label2;
         private Label label1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
+        private Label label10;
+        private Label label11;
+        private Label label12;
     }
 }
