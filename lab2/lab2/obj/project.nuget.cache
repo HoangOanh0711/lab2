@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "N7JcB5BMDUozoksFoeLpmSmWFrJcuFH9opUBSZcwjUYfasDL20442+GtLIwDBy+Xt/M7iTtxv3IwMsl9soltHQ==",
+  "dgSpecHash": "PcAkIYdvxte6ad+XqUbnxtgeN0UgvHmtuKI0GHtldHxQZpaY/8jeZtJE0qo083iciJYad6QTNZMJPom5jq6jzQ==",
   "success": true,
   "projectFilePath": "G:\\Oanhhh\\c#\\lab2-git\\lab2\\lab2\\lab2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.4\\guna.ui2.winforms.2.0.4.4.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
