@@ -1,0 +1,17 @@
+G:\Oanhhh\c#\lab2-git\lab2\lab2\bin\Debug\net6.0-windows\lab2.exe
+G:\Oanhhh\c#\lab2-git\lab2\lab2\bin\Debug\net6.0-windows\lab2.deps.json
+G:\Oanhhh\c#\lab2-git\lab2\lab2\bin\Debug\net6.0-windows\lab2.runtimeconfig.json
+G:\Oanhhh\c#\lab2-git\lab2\lab2\bin\Debug\net6.0-windows\lab2.dll
+G:\Oanhhh\c#\lab2-git\lab2\lab2\bin\Debug\net6.0-windows\lab2.pdb
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.csproj.AssemblyReference.cache
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.Form1.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.csproj.GenerateResource.cache
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.GeneratedMSBuildEditorConfig.editorconfig
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.AssemblyInfoInputs.cache
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.AssemblyInfo.cs
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.csproj.CoreCompileInputs.cache
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.dll
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\refint\lab2.dll
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.pdb
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.genruntimeconfig.cache
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\ref\lab2.dll
