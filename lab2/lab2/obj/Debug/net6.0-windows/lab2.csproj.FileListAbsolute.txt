@@ -15,3 +15,10 @@ G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\refint\lab2.dll
 G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.pdb
 G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.genruntimeconfig.cache
 G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\ref\lab2.dll
+G:\Oanhhh\c#\lab2-git\lab2\lab2\bin\Debug\net6.0-windows\Guna.UI2.dll
+G:\Oanhhh\c#\lab2-git\lab2\lab2\bin\Debug\net6.0-windows\System.Management.dll
+G:\Oanhhh\c#\lab2-git\lab2\lab2\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.DangKy.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.DangNhap.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.Properties.Resources.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.csproj.CopyComplete
