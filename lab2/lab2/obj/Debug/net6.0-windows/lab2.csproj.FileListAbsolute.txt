@@ -22,3 +22,8 @@ G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.DangKy.resources
 G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.DangNhap.resources
 G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.Properties.Resources.resources
 G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.csproj.CopyComplete
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.uc_trangchu.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.uc_dichvu.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.uc_taikhoan.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.uc_traodoi.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.uc_item.resources

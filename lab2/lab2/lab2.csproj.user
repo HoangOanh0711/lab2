@@ -10,5 +10,20 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="uc_dichvu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="uc_item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="uc_taikhoan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="uc_trangchu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="uc_traodoi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

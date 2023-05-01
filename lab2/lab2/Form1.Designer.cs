@@ -28,65 +28,152 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            img_slide = new Guna.UI2.WinForms.Guna2PictureBox();
-            timer1 = new System.Windows.Forms.Timer(components);
-            guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            ((System.ComponentModel.ISupportInitialize)img_slide).BeginInit();
-            guna2GradientPanel1.SuspendLayout();
+            guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            btn_trangchu = new Guna.UI2.WinForms.Guna2CircleButton();
+            btn_dichvu = new Guna.UI2.WinForms.Guna2CircleButton();
+            btn_traodoi = new Guna.UI2.WinForms.Guna2CircleButton();
+            btn_taikhoan = new Guna.UI2.WinForms.Guna2CircleButton();
+            panelControl = new Panel();
+            guna2GradientPanel2.SuspendLayout();
+            tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
-            // img_slide
+            // guna2GradientPanel2
             // 
-            img_slide.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            img_slide.BackColor = Color.Transparent;
-            img_slide.CustomizableEdges = customizableEdges1;
-            img_slide.FillColor = Color.FromArgb(255, 224, 192);
-            img_slide.ImageRotate = 0F;
-            img_slide.Location = new Point(9, 317);
-            img_slide.Name = "img_slide";
-            img_slide.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            img_slide.Size = new Size(458, 314);
-            img_slide.SizeMode = PictureBoxSizeMode.StretchImage;
-            img_slide.TabIndex = 60;
-            img_slide.TabStop = false;
+            guna2GradientPanel2.Controls.Add(tableLayoutPanel1);
+            guna2GradientPanel2.CustomizableEdges = customizableEdges5;
+            guna2GradientPanel2.Dock = DockStyle.Bottom;
+            guna2GradientPanel2.FillColor = Color.FromArgb(168, 187, 227);
+            guna2GradientPanel2.FillColor2 = Color.FromArgb(128, 223, 217);
+            guna2GradientPanel2.Location = new Point(0, 665);
+            guna2GradientPanel2.Name = "guna2GradientPanel2";
+            guna2GradientPanel2.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            guna2GradientPanel2.Size = new Size(485, 78);
+            guna2GradientPanel2.TabIndex = 62;
             // 
-            // timer1
+            // tableLayoutPanel1
             // 
-            timer1.Enabled = true;
-            timer1.Interval = 2000;
-            timer1.Tick += timer1_Tick;
+            tableLayoutPanel1.BackColor = Color.Transparent;
+            tableLayoutPanel1.ColumnCount = 4;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tableLayoutPanel1.Controls.Add(btn_trangchu, 0, 0);
+            tableLayoutPanel1.Controls.Add(btn_dichvu, 1, 0);
+            tableLayoutPanel1.Controls.Add(btn_traodoi, 2, 0);
+            tableLayoutPanel1.Controls.Add(btn_taikhoan, 3, 0);
+            tableLayoutPanel1.Dock = DockStyle.Fill;
+            tableLayoutPanel1.Location = new Point(0, 0);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 1;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel1.Size = new Size(485, 78);
+            tableLayoutPanel1.TabIndex = 0;
             // 
-            // guna2GradientPanel1
+            // btn_trangchu
             // 
-            guna2GradientPanel1.Controls.Add(guna2Panel1);
-            guna2GradientPanel1.CustomizableEdges = customizableEdges5;
-            guna2GradientPanel1.FillColor = Color.FromArgb(168, 187, 227);
-            guna2GradientPanel1.FillColor2 = Color.FromArgb(128, 223, 217);
-            guna2GradientPanel1.Location = new Point(-3, -2);
-            guna2GradientPanel1.Name = "guna2GradientPanel1";
-            guna2GradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2GradientPanel1.Size = new Size(485, 294);
-            guna2GradientPanel1.TabIndex = 61;
+            btn_trangchu.CheckedState.FillColor = Color.Transparent;
+            btn_trangchu.CheckedState.ForeColor = Color.White;
+            btn_trangchu.CheckedState.Image = Properties.Resources.home__2_;
+            btn_trangchu.DisabledState.BorderColor = Color.DarkGray;
+            btn_trangchu.DisabledState.CustomBorderColor = Color.DarkGray;
+            btn_trangchu.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btn_trangchu.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btn_trangchu.FillColor = Color.Transparent;
+            btn_trangchu.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_trangchu.ForeColor = Color.Black;
+            btn_trangchu.Image = Properties.Resources.home__1_;
+            btn_trangchu.Location = new Point(3, 3);
+            btn_trangchu.Name = "btn_trangchu";
+            btn_trangchu.ShadowDecoration.CustomizableEdges = customizableEdges1;
+            btn_trangchu.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            btn_trangchu.Size = new Size(115, 72);
+            btn_trangchu.TabIndex = 67;
+            btn_trangchu.Text = "Trang chủ";
+            btn_trangchu.Click += btn_trangchu_Click;
             // 
-            // guna2Panel1
+            // btn_dichvu
             // 
-            guna2Panel1.BackColor = Color.Transparent;
-            guna2Panel1.BorderRadius = 20;
-            guna2Panel1.CustomizableEdges = customizableEdges3;
-            guna2Panel1.FillColor = Color.White;
-            guna2Panel1.Location = new Point(66, 78);
-            guna2Panel1.Name = "guna2Panel1";
-            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2Panel1.Size = new Size(370, 200);
-            guna2Panel1.TabIndex = 0;
+            btn_dichvu.CheckedState.FillColor = Color.Transparent;
+            btn_dichvu.CheckedState.ForeColor = Color.White;
+            btn_dichvu.CheckedState.Image = Properties.Resources.shopping_bag__1_;
+            btn_dichvu.DisabledState.BorderColor = Color.DarkGray;
+            btn_dichvu.DisabledState.CustomBorderColor = Color.DarkGray;
+            btn_dichvu.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btn_dichvu.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btn_dichvu.FillColor = Color.Transparent;
+            btn_dichvu.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_dichvu.ForeColor = Color.Black;
+            btn_dichvu.Image = Properties.Resources.shopping_bag;
+            btn_dichvu.Location = new Point(124, 3);
+            btn_dichvu.Name = "btn_dichvu";
+            btn_dichvu.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btn_dichvu.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            btn_dichvu.Size = new Size(115, 72);
+            btn_dichvu.TabIndex = 67;
+            btn_dichvu.Text = "Dịch vụ";
+            btn_dichvu.Click += btn_dichvu_Click;
+            // 
+            // btn_traodoi
+            // 
+            btn_traodoi.CheckedState.FillColor = Color.Transparent;
+            btn_traodoi.CheckedState.ForeColor = Color.White;
+            btn_traodoi.CheckedState.Image = Properties.Resources.message_circle__1_;
+            btn_traodoi.DisabledState.BorderColor = Color.DarkGray;
+            btn_traodoi.DisabledState.CustomBorderColor = Color.DarkGray;
+            btn_traodoi.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btn_traodoi.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btn_traodoi.FillColor = Color.Transparent;
+            btn_traodoi.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_traodoi.ForeColor = Color.Black;
+            btn_traodoi.Image = Properties.Resources.message_circle;
+            btn_traodoi.Location = new Point(245, 3);
+            btn_traodoi.Name = "btn_traodoi";
+            btn_traodoi.ShadowDecoration.CustomizableEdges = customizableEdges3;
+            btn_traodoi.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            btn_traodoi.Size = new Size(115, 72);
+            btn_traodoi.TabIndex = 67;
+            btn_traodoi.Text = "Trao đổi";
+            btn_traodoi.Click += btn_traodoi_Click;
+            // 
+            // btn_taikhoan
+            // 
+            btn_taikhoan.CheckedState.FillColor = Color.Transparent;
+            btn_taikhoan.CheckedState.ForeColor = Color.White;
+            btn_taikhoan.CheckedState.Image = Properties.Resources.user__1_;
+            btn_taikhoan.DisabledState.BorderColor = Color.DarkGray;
+            btn_taikhoan.DisabledState.CustomBorderColor = Color.DarkGray;
+            btn_taikhoan.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btn_taikhoan.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btn_taikhoan.FillColor = Color.Transparent;
+            btn_taikhoan.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_taikhoan.ForeColor = Color.Black;
+            btn_taikhoan.Image = Properties.Resources.user;
+            btn_taikhoan.Location = new Point(366, 3);
+            btn_taikhoan.Name = "btn_taikhoan";
+            btn_taikhoan.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btn_taikhoan.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            btn_taikhoan.Size = new Size(115, 72);
+            btn_taikhoan.TabIndex = 67;
+            btn_taikhoan.Text = "Tài khoản";
+            btn_taikhoan.Click += btn_taikhoan_Click;
+            // 
+            // panelControl
+            // 
+            panelControl.Dock = DockStyle.Fill;
+            panelControl.Location = new Point(0, 0);
+            panelControl.Name = "panelControl";
+            panelControl.Size = new Size(485, 665);
+            panelControl.TabIndex = 63;
             // 
             // Form1
             // 
@@ -94,24 +181,26 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
             BackColor = Color.White;
-            ClientSize = new Size(482, 763);
-            Controls.Add(guna2GradientPanel1);
-            Controls.Add(img_slide);
+            ClientSize = new Size(485, 743);
+            Controls.Add(panelControl);
+            Controls.Add(guna2GradientPanel2);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)img_slide).EndInit();
-            guna2GradientPanel1.ResumeLayout(false);
+            guna2GradientPanel2.ResumeLayout(false);
+            tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2PictureBox img_slide;
-        private System.Windows.Forms.Timer timer1;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
+        private TableLayoutPanel tableLayoutPanel1;
+        private Guna.UI2.WinForms.Guna2CircleButton btn_trangchu;
+        private Guna.UI2.WinForms.Guna2CircleButton btn_dichvu;
+        private Guna.UI2.WinForms.Guna2CircleButton btn_traodoi;
+        private Guna.UI2.WinForms.Guna2CircleButton btn_taikhoan;
+        private Panel panelControl;
     }
 }
