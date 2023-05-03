@@ -39,5 +39,12 @@ namespace lab2
         {
             img_slide.ImageLocation = string.Format(@"G:\Oanhhh\c#\lab2-git\lab2\lab2\Resources\" + ImageNumber + ".jpg");
         }
+
+
+        private void guna2GradientPanel1_Paint(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

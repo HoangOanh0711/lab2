@@ -109,6 +109,7 @@
             panelControl.Name = "panelControl";
             panelControl.Size = new Size(485, 583);
             panelControl.TabIndex = 1;
+            panelControl.Paint += panelControl_Paint;
             // 
             // uc_dichvu
             // 

@@ -16,5 +16,11 @@ namespace lab2
         {
             InitializeComponent();
         }
+
+        private void tk_avatartk_Click(object sender, EventArgs e)
+        {
+            TinNhan tinNhan = new TinNhan();
+            tinNhan.ShowDialog();
+        }
     }
 }

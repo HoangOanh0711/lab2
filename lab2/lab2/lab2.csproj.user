@@ -10,6 +10,18 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="LichSuMuaHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ThayDoiThongTin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TinNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="uc_dichvu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -17,6 +29,12 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="uc_taikhoan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="uc_tinnhan_hotro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="uc_tinnhan_ngdung.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="uc_trangchu.cs">

@@ -69,6 +69,7 @@
             btn_close.SizeMode = PictureBoxSizeMode.StretchImage;
             btn_close.TabIndex = 54;
             btn_close.TabStop = false;
+            btn_close.Click += btn_close_Click;
             // 
             // guna2CirclePictureBox2
             // 
@@ -123,13 +124,14 @@
             // 
             btn_dangky.AutoSize = true;
             btn_dangky.BackColor = Color.Transparent;
-            btn_dangky.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_dangky.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btn_dangky.ForeColor = Color.FromArgb(130, 158, 219);
             btn_dangky.Location = new Point(218, 411);
             btn_dangky.Name = "btn_dangky";
-            btn_dangky.Size = new Size(105, 18);
+            btn_dangky.Size = new Size(117, 19);
             btn_dangky.TabIndex = 49;
             btn_dangky.Text = "Đăng ký ngay.";
+            btn_dangky.Click += btn_dangky_Click;
             // 
             // label7
             // 
@@ -197,6 +199,7 @@
             btn_dangnhap.Size = new Size(237, 52);
             btn_dangnhap.TabIndex = 44;
             btn_dangnhap.Text = "Đăng Nhập";
+            btn_dangnhap.Click += btn_dangnhap_Click;
             // 
             // tb_matkhau
             // 

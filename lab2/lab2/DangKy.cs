@@ -16,5 +16,27 @@ namespace lab2
         {
             InitializeComponent();
         }
+
+        private void btn_dangKy_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DangNhap dangNhap = new DangNhap();
+            dangNhap.ShowDialog();
+            this.Close();
+        }
+
+        private void btn_dangNhap_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DangNhap dangNhap = new DangNhap();
+            dangNhap.ShowDialog();
+            this.Close();
+        }
+
+        private void btn_close_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            this.Close();
+        }
     }
 }

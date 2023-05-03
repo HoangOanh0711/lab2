@@ -27,3 +27,9 @@ G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.uc_dichvu.resource
 G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.uc_taikhoan.resources
 G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.uc_traodoi.resources
 G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.uc_item.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.LichSuMuaHang.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.ThayDoiThongTin.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.ThongKe.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.TinNhan.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.uc_tinnhan_hotro.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.uc_tinnhan_ngdung.resources

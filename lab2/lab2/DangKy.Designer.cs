@@ -154,18 +154,20 @@
             btn_close.SizeMode = PictureBoxSizeMode.StretchImage;
             btn_close.TabIndex = 72;
             btn_close.TabStop = false;
+            btn_close.Click += btn_close_Click;
             // 
             // btn_dangNhap
             // 
             btn_dangNhap.AutoSize = true;
             btn_dangNhap.BackColor = Color.Transparent;
-            btn_dangNhap.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_dangNhap.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btn_dangNhap.ForeColor = Color.FromArgb(130, 158, 219);
             btn_dangNhap.Location = new Point(199, 466);
             btn_dangNhap.Name = "btn_dangNhap";
-            btn_dangNhap.Size = new Size(124, 18);
+            btn_dangNhap.Size = new Size(138, 19);
             btn_dangNhap.TabIndex = 71;
             btn_dangNhap.Text = "Đăng nhập ngay.";
+            btn_dangNhap.Click += btn_dangNhap_Click;
             // 
             // label7
             // 
@@ -198,6 +200,7 @@
             btn_dangKy.Size = new Size(237, 52);
             btn_dangKy.TabIndex = 69;
             btn_dangKy.Text = "Đăng Ký";
+            btn_dangKy.Click += btn_dangKy_Click;
             // 
             // tb_nhapLaiMatKhau
             // 

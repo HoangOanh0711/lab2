@@ -93,5 +93,10 @@ namespace lab2
             btn_launchdry.Checked = true;
             DichVuGiat();
         }
+
+        private void panelControl_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
