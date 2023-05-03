@@ -1,10 +1,18 @@
+using System.Data;
+
 namespace lab2
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        DataTable dt;
+        string username;
+        string pass;
+        public Form1(DataTable dt, string username, string pass )
         {
             InitializeComponent();
+            this.dt = dt;
+            this.username = username;
+            this.pass = pass;
         }
 
         private void addUserControl(UserControl userControl)
@@ -16,7 +24,7 @@ namespace lab2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            uc_trangchu uc_Trangchu = new uc_trangchu();
+            uc_trangchu uc_Trangchu = new uc_trangchu(username);
             addUserControl(uc_Trangchu);
             btn_trangchu.Checked = true;
             btn_dichvu.Checked = false;
@@ -26,7 +34,7 @@ namespace lab2
 
         private void btn_trangchu_Click(object sender, EventArgs e)
         {
-            uc_trangchu uc_Trangchu = new uc_trangchu();
+            uc_trangchu uc_Trangchu = new uc_trangchu(username);
             addUserControl(uc_Trangchu);
             btn_trangchu.Checked = true;
             btn_dichvu.Checked = false;

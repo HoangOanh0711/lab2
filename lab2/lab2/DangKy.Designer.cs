@@ -43,8 +43,10 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             tb_matKhau = new Guna.UI2.WinForms.Guna2TextBox();
-            tb_diaChi = new Guna.UI2.WinForms.Guna2TextBox();
+            tb_email = new Guna.UI2.WinForms.Guna2TextBox();
             tb_hoTen = new Guna.UI2.WinForms.Guna2TextBox();
             btn_close = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             btn_dangNhap = new Label();
@@ -59,6 +61,7 @@
             label10 = new Label();
             label11 = new Label();
             label12 = new Label();
+            tb_diaChi = new Guna.UI2.WinForms.Guna2TextBox();
             ((System.ComponentModel.ISupportInitialize)btn_close).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).BeginInit();
@@ -79,10 +82,10 @@
             tb_matKhau.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             tb_matKhau.ForeColor = Color.Black;
             tb_matKhau.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tb_matKhau.Location = new Point(13, 272);
+            tb_matKhau.Location = new Point(12, 323);
             tb_matKhau.Margin = new Padding(4, 4, 4, 4);
             tb_matKhau.Name = "tb_matKhau";
-            tb_matKhau.PasswordChar = '\0';
+            tb_matKhau.PasswordChar = '*';
             tb_matKhau.PlaceholderForeColor = Color.FromArgb(130, 158, 219);
             tb_matKhau.PlaceholderText = "Mật khẩu";
             tb_matKhau.SelectedText = "";
@@ -90,31 +93,31 @@
             tb_matKhau.Size = new Size(346, 43);
             tb_matKhau.TabIndex = 79;
             // 
-            // tb_diaChi
+            // tb_email
             // 
-            tb_diaChi.BackColor = Color.Transparent;
-            tb_diaChi.BorderColor = Color.FromArgb(168, 187, 227);
-            tb_diaChi.BorderRadius = 20;
-            tb_diaChi.CustomizableEdges = customizableEdges3;
-            tb_diaChi.DefaultText = "";
-            tb_diaChi.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            tb_diaChi.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            tb_diaChi.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            tb_diaChi.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            tb_diaChi.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            tb_diaChi.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            tb_diaChi.ForeColor = Color.Black;
-            tb_diaChi.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tb_diaChi.Location = new Point(13, 221);
-            tb_diaChi.Margin = new Padding(4, 4, 4, 4);
-            tb_diaChi.Name = "tb_diaChi";
-            tb_diaChi.PasswordChar = '\0';
-            tb_diaChi.PlaceholderForeColor = Color.FromArgb(130, 158, 219);
-            tb_diaChi.PlaceholderText = "Email";
-            tb_diaChi.SelectedText = "";
-            tb_diaChi.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            tb_diaChi.Size = new Size(346, 43);
-            tb_diaChi.TabIndex = 75;
+            tb_email.BackColor = Color.Transparent;
+            tb_email.BorderColor = Color.FromArgb(168, 187, 227);
+            tb_email.BorderRadius = 20;
+            tb_email.CustomizableEdges = customizableEdges3;
+            tb_email.DefaultText = "";
+            tb_email.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            tb_email.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            tb_email.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            tb_email.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            tb_email.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            tb_email.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tb_email.ForeColor = Color.Black;
+            tb_email.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            tb_email.Location = new Point(12, 119);
+            tb_email.Margin = new Padding(4, 4, 4, 4);
+            tb_email.Name = "tb_email";
+            tb_email.PasswordChar = '\0';
+            tb_email.PlaceholderForeColor = Color.FromArgb(130, 158, 219);
+            tb_email.PlaceholderText = "Email";
+            tb_email.SelectedText = "";
+            tb_email.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            tb_email.Size = new Size(346, 43);
+            tb_email.TabIndex = 75;
             // 
             // tb_hoTen
             // 
@@ -131,7 +134,7 @@
             tb_hoTen.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             tb_hoTen.ForeColor = Color.Black;
             tb_hoTen.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tb_hoTen.Location = new Point(13, 119);
+            tb_hoTen.Location = new Point(12, 221);
             tb_hoTen.Margin = new Padding(4, 4, 4, 4);
             tb_hoTen.Name = "tb_hoTen";
             tb_hoTen.PasswordChar = '\0';
@@ -162,7 +165,7 @@
             btn_dangNhap.BackColor = Color.Transparent;
             btn_dangNhap.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btn_dangNhap.ForeColor = Color.FromArgb(130, 158, 219);
-            btn_dangNhap.Location = new Point(199, 466);
+            btn_dangNhap.Location = new Point(199, 495);
             btn_dangNhap.Name = "btn_dangNhap";
             btn_dangNhap.Size = new Size(138, 19);
             btn_dangNhap.TabIndex = 71;
@@ -175,7 +178,7 @@
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label7.ForeColor = Color.FromArgb(130, 158, 219);
-            label7.Location = new Point(48, 466);
+            label7.Location = new Point(48, 495);
             label7.Name = "label7";
             label7.Size = new Size(155, 18);
             label7.TabIndex = 70;
@@ -194,7 +197,7 @@
             btn_dangKy.FillColor2 = Color.FromArgb(128, 223, 217);
             btn_dangKy.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btn_dangKy.ForeColor = Color.White;
-            btn_dangKy.Location = new Point(64, 411);
+            btn_dangKy.Location = new Point(64, 440);
             btn_dangKy.Name = "btn_dangKy";
             btn_dangKy.ShadowDecoration.CustomizableEdges = customizableEdges9;
             btn_dangKy.Size = new Size(237, 52);
@@ -217,10 +220,10 @@
             tb_nhapLaiMatKhau.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             tb_nhapLaiMatKhau.ForeColor = Color.Black;
             tb_nhapLaiMatKhau.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tb_nhapLaiMatKhau.Location = new Point(13, 323);
+            tb_nhapLaiMatKhau.Location = new Point(12, 374);
             tb_nhapLaiMatKhau.Margin = new Padding(4, 4, 4, 4);
             tb_nhapLaiMatKhau.Name = "tb_nhapLaiMatKhau";
-            tb_nhapLaiMatKhau.PasswordChar = '\0';
+            tb_nhapLaiMatKhau.PasswordChar = '*';
             tb_nhapLaiMatKhau.PlaceholderForeColor = Color.FromArgb(130, 158, 219);
             tb_nhapLaiMatKhau.PlaceholderText = "Nhập lại mật khẩu";
             tb_nhapLaiMatKhau.SelectedText = "";
@@ -282,7 +285,7 @@
             // 
             guna2CirclePictureBox2.Image = Properties.Resources.facebook;
             guna2CirclePictureBox2.ImageRotate = 0F;
-            guna2CirclePictureBox2.Location = new Point(230, 557);
+            guna2CirclePictureBox2.Location = new Point(230, 586);
             guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
             guna2CirclePictureBox2.ShadowDecoration.CustomizableEdges = customizableEdges14;
             guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -295,7 +298,7 @@
             // 
             guna2CirclePictureBox1.Image = Properties.Resources.google;
             guna2CirclePictureBox1.ImageRotate = 0F;
-            guna2CirclePictureBox1.Location = new Point(109, 557);
+            guna2CirclePictureBox1.Location = new Point(109, 586);
             guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges15;
             guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -308,7 +311,7 @@
             // 
             label10.AutoSize = true;
             label10.ForeColor = Color.FromArgb(130, 158, 219);
-            label10.Location = new Point(248, 521);
+            label10.Location = new Point(248, 550);
             label10.Name = "label10";
             label10.Size = new Size(87, 15);
             label10.TabIndex = 83;
@@ -321,7 +324,7 @@
             label11.BackColor = Color.Transparent;
             label11.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label11.ForeColor = Color.FromArgb(130, 158, 219);
-            label11.Location = new Point(109, 521);
+            label11.Location = new Point(109, 550);
             label11.Name = "label11";
             label11.Size = new Size(142, 18);
             label11.TabIndex = 82;
@@ -331,12 +334,38 @@
             // 
             label12.AutoSize = true;
             label12.ForeColor = Color.FromArgb(130, 158, 219);
-            label12.Location = new Point(23, 518);
+            label12.Location = new Point(23, 547);
             label12.Name = "label12";
             label12.Size = new Size(87, 15);
             label12.TabIndex = 81;
             label12.Text = "________________";
             label12.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // tb_diaChi
+            // 
+            tb_diaChi.BackColor = Color.Transparent;
+            tb_diaChi.BorderColor = Color.FromArgb(168, 187, 227);
+            tb_diaChi.BorderRadius = 20;
+            tb_diaChi.CustomizableEdges = customizableEdges16;
+            tb_diaChi.DefaultText = "";
+            tb_diaChi.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            tb_diaChi.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            tb_diaChi.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            tb_diaChi.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            tb_diaChi.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            tb_diaChi.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tb_diaChi.ForeColor = Color.Black;
+            tb_diaChi.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            tb_diaChi.Location = new Point(12, 272);
+            tb_diaChi.Margin = new Padding(4, 4, 4, 4);
+            tb_diaChi.Name = "tb_diaChi";
+            tb_diaChi.PasswordChar = '\0';
+            tb_diaChi.PlaceholderForeColor = Color.FromArgb(130, 158, 219);
+            tb_diaChi.PlaceholderText = "Địa chỉ";
+            tb_diaChi.SelectedText = "";
+            tb_diaChi.ShadowDecoration.CustomizableEdges = customizableEdges17;
+            tb_diaChi.Size = new Size(346, 43);
+            tb_diaChi.TabIndex = 86;
             // 
             // DangKy
             // 
@@ -345,13 +374,14 @@
             BackColor = Color.White;
             ClientSize = new Size(371, 645);
             ControlBox = false;
+            Controls.Add(tb_diaChi);
             Controls.Add(guna2CirclePictureBox2);
             Controls.Add(guna2CirclePictureBox1);
             Controls.Add(label10);
             Controls.Add(label11);
             Controls.Add(label12);
             Controls.Add(tb_matKhau);
-            Controls.Add(tb_diaChi);
+            Controls.Add(tb_email);
             Controls.Add(tb_hoTen);
             Controls.Add(btn_close);
             Controls.Add(btn_dangNhap);
@@ -374,7 +404,7 @@
 
         #endregion
         private Guna.UI2.WinForms.Guna2TextBox tb_matKhau;
-        private Guna.UI2.WinForms.Guna2TextBox tb_diaChi;
+        private Guna.UI2.WinForms.Guna2TextBox tb_email;
         private Guna.UI2.WinForms.Guna2TextBox tb_hoTen;
         private Guna.UI2.WinForms.Guna2CirclePictureBox btn_close;
         private Label btn_dangNhap;
@@ -389,5 +419,6 @@
         private Label label10;
         private Label label11;
         private Label label12;
+        private Guna.UI2.WinForms.Guna2TextBox tb_diaChi;
     }
 }

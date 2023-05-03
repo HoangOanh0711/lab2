@@ -219,7 +219,7 @@
             tb_matkhau.Location = new Point(13, 201);
             tb_matkhau.Margin = new Padding(4, 4, 4, 4);
             tb_matkhau.Name = "tb_matkhau";
-            tb_matkhau.PasswordChar = '\0';
+            tb_matkhau.PasswordChar = '*';
             tb_matkhau.PlaceholderForeColor = Color.FromArgb(130, 158, 219);
             tb_matkhau.PlaceholderText = "Mật khẩu";
             tb_matkhau.SelectedText = "";
@@ -302,6 +302,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "DangNhap";
             StartPosition = FormStartPosition.CenterScreen;
+            Load += DangNhap_Load;
             ((System.ComponentModel.ISupportInitialize)btn_close).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).EndInit();

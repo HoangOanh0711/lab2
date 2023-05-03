@@ -53,7 +53,13 @@ namespace lab2
         private void send_Click(object sender, EventArgs e)
         {
             ThemTinNhanNgDung(text_input.Text);
+            switch (text_input.Text)
+            {
+                case "liên hệ": ThemTinNhanHoTro("Email: giupviec@gmail.com \n Hotline: 0123456789"); break;
+                case "123": ThemTinNhanHoTro("chào123"); break;
+            }
             text_input.Clear();
+            
         }
     }
 }

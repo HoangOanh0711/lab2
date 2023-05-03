@@ -14,6 +14,8 @@ namespace lab2
     {
 
         public int ImageNumber = 1;
+
+        string username;
         private void LoadNextImages()
         {
             timer1.Start();
@@ -25,9 +27,10 @@ namespace lab2
             img_slide.ImageLocation = string.Format(@"G:\Oanhhh\c#\lab2-git\lab2\lab2\Resources\" + ImageNumber + ".jpg");
         }
 
-        public uc_trangchu()
+        public uc_trangchu(string username)
         {
             InitializeComponent();
+            this.username = username;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -37,6 +40,7 @@ namespace lab2
 
         private void uc_trangchu_Load(object sender, EventArgs e)
         {
+            lb_ten.Text = "Xin chào " + username +"!";
             img_slide.ImageLocation = string.Format(@"G:\Oanhhh\c#\lab2-git\lab2\lab2\Resources\" + ImageNumber + ".jpg");
         }
 
