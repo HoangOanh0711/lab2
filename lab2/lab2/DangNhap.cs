@@ -44,7 +44,7 @@ namespace lab2
                     WriteFile("");
                 }
                 this.Hide();
-                Form1 form = new Form1(dt,user,pass);
+                Form1 form = new Form1(dt, user, pass);
                 form.ShowDialog();
                 this.Close();
             }

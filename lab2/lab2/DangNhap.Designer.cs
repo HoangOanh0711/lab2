@@ -171,6 +171,8 @@
             // cb_nhoTK
             // 
             cb_nhoTK.AutoSize = true;
+            cb_nhoTK.Checked = true;
+            cb_nhoTK.CheckState = CheckState.Checked;
             cb_nhoTK.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             cb_nhoTK.ForeColor = Color.FromArgb(130, 158, 219);
             cb_nhoTK.Location = new Point(14, 257);
