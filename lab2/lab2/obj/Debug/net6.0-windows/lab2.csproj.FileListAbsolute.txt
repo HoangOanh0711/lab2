@@ -33,3 +33,8 @@ G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.ThongKe.resources
 G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.TinNhan.resources
 G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.uc_tinnhan_hotro.resources
 G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.uc_tinnhan_ngdung.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.GioHang.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.uc_congviec.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.uc_don_dep.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.uc_giat.resources
+G:\Oanhhh\c#\lab2-git\lab2\lab2\obj\Debug\net6.0-windows\lab2.uc_nau_an.resources

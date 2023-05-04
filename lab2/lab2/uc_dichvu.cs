@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace lab2
 {
@@ -19,10 +20,11 @@ namespace lab2
 
         private void uc_dichvu_Load(object sender, EventArgs e)
         {
+            uc_nau_an uc_Nau_An = new uc_nau_an();
+            addUserControl(uc_Nau_An);
             btn_cook.Checked = true;
             btn_clean.Checked = false;
             btn_launchdry.Checked = false;
-            DichVuNauAn();
         }
 
         public void ThemDichVu(string anh, string ten, double gia)
@@ -36,62 +38,38 @@ namespace lab2
             });
         }
 
-        public void DichVuNauAn()
+        private void addUserControl(UserControl userControl)
         {
             panelControl.Controls.Clear();
-            ThemDichVu("11", "2 món", 150.000);
-            ThemDichVu("12", "3 món", 200.000);
-            ThemDichVu("13", "4 món", 250.000);
-            ThemDichVu("14", "4 món", 250.000);
-            ThemDichVu("15", "3 món", 200.000);
-            ThemDichVu("16", "4 món", 250.000);
-            ThemDichVu("17", "4 món", 250.000);
-            ThemDichVu("18", "4 món", 250.000);
-            ThemDichVu("19", "4 món", 250.000);
-            ThemDichVu("20", "5 món", 300.000);
+            panelControl.Controls.Add(userControl);
+            userControl.BringToFront();
         }
 
-        public void DichVuDonDep()
-        {
-            panelControl.Controls.Clear();
-            ThemDichVu("6", "dưới 50m2", 250.000);
-            ThemDichVu("7", "50-100m2", 250.000);
-            ThemDichVu("8", "100-200m2", 250.000);
-            ThemDichVu("9", "200-500m2", 250.000);
-            ThemDichVu("10", "trên 500m2", 300.000);
-        }
-
-        public void DichVuGiat()
-        {
-            panelControl.Controls.Clear();
-            ThemDichVu("22", "Giặt hấp", 200.000);
-            ThemDichVu("24", "Giặt sấy", 250.000);
-            ThemDichVu("21", "Ủi quần ảo", 150.000);
-            ThemDichVu("25", "Tẩy trắng quần áo", 200.000);
-            ThemDichVu("23", "Dịch vụ khác", 250.000);
-        }
         private void btn_clean_Click(object sender, EventArgs e)
         {
+            uc_don_dep uc_Don_Dep = new uc_don_dep();
+            addUserControl(uc_Don_Dep);
             btn_cook.Checked = false;
             btn_clean.Checked = true;
             btn_launchdry.Checked = false;
-            DichVuDonDep();
         }
 
         private void btn_cook_Click(object sender, EventArgs e)
         {
+            uc_nau_an uc_Nau_An = new uc_nau_an();
+            addUserControl(uc_Nau_An);
             btn_cook.Checked = true;
             btn_clean.Checked = false;
             btn_launchdry.Checked = false;
-            DichVuNauAn();
         }
 
         private void btn_launchdry_Click(object sender, EventArgs e)
         {
+            uc_giat uc_Giat = new uc_giat();
+            addUserControl(uc_Giat);
             btn_cook.Checked = false;
             btn_clean.Checked = false;
             btn_launchdry.Checked = true;
-            DichVuGiat();
         }
 
         private void panelControl_Paint(object sender, PaintEventArgs e)
@@ -103,7 +81,7 @@ namespace lab2
         {
             GioHang gioHang = new GioHang();
             gioHang.ShowDialog();
-           
+
         }
     }
 }

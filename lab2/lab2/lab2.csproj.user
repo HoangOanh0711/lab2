@@ -31,7 +31,16 @@
     <Compile Update="uc_dichvu.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="uc_don_dep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="uc_giat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="uc_item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="uc_nau_an.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="uc_taikhoan.cs">

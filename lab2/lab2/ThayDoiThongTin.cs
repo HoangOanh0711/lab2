@@ -31,7 +31,7 @@ namespace lab2
             string email = tb_email.Text;
             string phone = tb_soDT.Text;
 
-            int index = Array.FindIndex(data,arr => arr[1] == email);
+            int index = Array.FindIndex(data, arr => arr[1] == email);
 
             if (index == -1)
             {
@@ -42,7 +42,7 @@ namespace lab2
 
                 lines[index] = updateLine;
                 File.WriteAllLines("userData.txt", lines);
-                MessageBox.Show("Cập nhật thông tin người dùng thành công!","Thông báo",MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Cập nhật thông tin người dùng thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {

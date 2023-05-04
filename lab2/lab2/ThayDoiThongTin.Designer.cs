@@ -155,7 +155,7 @@
             tb_matKhau.PlaceholderText = "Mật khẩu mới";
             tb_matKhau.SelectedText = "";
             tb_matKhau.ShadowDecoration.CustomizableEdges = customizableEdges5;
-            tb_matKhau.Size = new Size(377, 43);
+            tb_matKhau.Size = new Size(409, 43);
             tb_matKhau.TabIndex = 84;
             // 
             // tb_email
@@ -182,7 +182,7 @@
             tb_email.PlaceholderText = "Email";
             tb_email.SelectedText = "";
             tb_email.ShadowDecoration.CustomizableEdges = customizableEdges7;
-            tb_email.Size = new Size(377, 43);
+            tb_email.Size = new Size(409, 43);
             tb_email.TabIndex = 83;
             // 
             // tb_hoTen
@@ -209,7 +209,7 @@
             tb_hoTen.PlaceholderText = "Họ và tên";
             tb_hoTen.SelectedText = "";
             tb_hoTen.ShadowDecoration.CustomizableEdges = customizableEdges9;
-            tb_hoTen.Size = new Size(377, 43);
+            tb_hoTen.Size = new Size(409, 43);
             tb_hoTen.TabIndex = 82;
             // 
             // tb_soDT
@@ -236,7 +236,7 @@
             tb_soDT.PlaceholderText = "Số điện thoại";
             tb_soDT.SelectedText = "";
             tb_soDT.ShadowDecoration.CustomizableEdges = customizableEdges11;
-            tb_soDT.Size = new Size(378, 43);
+            tb_soDT.Size = new Size(410, 43);
             tb_soDT.TabIndex = 80;
             // 
             // label2
@@ -284,7 +284,7 @@
             tb_vitri.Location = new Point(26, 624);
             tb_vitri.Name = "tb_vitri";
             tb_vitri.ShadowDecoration.CustomizableEdges = customizableEdges13;
-            tb_vitri.Size = new Size(378, 133);
+            tb_vitri.Size = new Size(410, 133);
             tb_vitri.TabIndex = 88;
             // 
             // label8
@@ -340,7 +340,7 @@
             tb_nhaplai.PlaceholderText = "Nhập lại mật khẩu mới";
             tb_nhaplai.SelectedText = "";
             tb_nhaplai.ShadowDecoration.CustomizableEdges = customizableEdges15;
-            tb_nhaplai.Size = new Size(377, 43);
+            tb_nhaplai.Size = new Size(409, 43);
             tb_nhaplai.TabIndex = 89;
             // 
             // panel1
@@ -378,7 +378,7 @@
             btn_dangnhap.Location = new Point(119, 843);
             btn_dangnhap.Name = "btn_dangnhap";
             btn_dangnhap.ShadowDecoration.CustomizableEdges = customizableEdges17;
-            btn_dangnhap.Size = new Size(235, 52);
+            btn_dangnhap.Size = new Size(218, 52);
             btn_dangnhap.TabIndex = 92;
             btn_dangnhap.Text = "Lưu Thay Đổi";
             btn_dangnhap.Click += btn_dangnhap_Click;

@@ -40,36 +40,36 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             tb_vitri = new Guna.UI2.WinForms.Guna2Panel();
+            btn_dangnhap = new Guna.UI2.WinForms.Guna2GradientButton();
+            label5 = new Label();
             label8 = new Label();
             label7 = new Label();
             label6 = new Label();
             label4 = new Label();
-            label5 = new Label();
-            btn_dangnhap = new Guna.UI2.WinForms.Guna2GradientButton();
             label11 = new Label();
             panelControl = new FlowLayoutPanel();
             panel1 = new Panel();
+            guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
+            label3 = new Label();
+            label9 = new Label();
             label2 = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
-            panel2 = new Panel();
-            panel4 = new Panel();
-            label9 = new Label();
-            label3 = new Label();
-            guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
-            pictureBox2 = new PictureBox();
-            label10 = new Label();
             panel3 = new Panel();
-            pictureBox3 = new PictureBox();
             label12 = new Label();
+            pictureBox3 = new PictureBox();
+            panel2 = new Panel();
+            label10 = new Label();
+            pictureBox2 = new PictureBox();
+            panel4 = new Panel();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             tb_vitri.SuspendLayout();
             panel1.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
-            panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // guna2Panel1
@@ -127,55 +127,6 @@
             tb_vitri.Size = new Size(428, 116);
             tb_vitri.TabIndex = 90;
             // 
-            // label8
-            // 
-            label8.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.Location = new Point(17, 73);
-            label8.Name = "label8";
-            label8.Size = new Size(411, 39);
-            label8.TabIndex = 2;
-            label8.Text = "142/5 Nguyễn Kim, phường 6, quận 10, TP. Hồ Chí Minh";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(17, 45);
-            label7.Name = "label7";
-            label7.Size = new Size(98, 18);
-            label7.TabIndex = 1;
-            label7.Text = "0775751613";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(17, 16);
-            label6.Name = "label6";
-            label6.Size = new Size(162, 18);
-            label6.TabIndex = 0;
-            label6.Text = "Bùi Xuân Hoàng Oanh";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(12, 259);
-            label4.Name = "label4";
-            label4.Size = new Size(160, 19);
-            label4.TabIndex = 89;
-            label4.Text = "Thông tin công việc";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.ForeColor = Color.Green;
-            label5.Location = new Point(276, 27);
-            label5.Name = "label5";
-            label5.Size = new Size(0, 19);
-            label5.TabIndex = 92;
-            // 
             // btn_dangnhap
             // 
             btn_dangnhap.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
@@ -196,6 +147,55 @@
             btn_dangnhap.Size = new Size(103, 30);
             btn_dangnhap.TabIndex = 93;
             btn_dangnhap.Text = "Thay đổi";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.ForeColor = Color.Green;
+            label5.Location = new Point(276, 27);
+            label5.Name = "label5";
+            label5.Size = new Size(0, 19);
+            label5.TabIndex = 92;
+            // 
+            // label8
+            // 
+            label8.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label8.Location = new Point(11, 73);
+            label8.Name = "label8";
+            label8.Size = new Size(407, 39);
+            label8.TabIndex = 2;
+            label8.Text = "142/5 Nguyễn Kim, phường 6, quận 10, TP. Hồ Chí Minh";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.Location = new Point(11, 45);
+            label7.Name = "label7";
+            label7.Size = new Size(98, 18);
+            label7.TabIndex = 1;
+            label7.Text = "0775751613";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.Location = new Point(11, 16);
+            label6.Name = "label6";
+            label6.Size = new Size(162, 18);
+            label6.TabIndex = 0;
+            label6.Text = "Bùi Xuân Hoàng Oanh";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(12, 259);
+            label4.Name = "label4";
+            label4.Size = new Size(160, 19);
+            label4.TabIndex = 89;
+            label4.Text = "Thông tin công việc";
             // 
             // label11
             // 
@@ -225,6 +225,49 @@
             panel1.Size = new Size(452, 125);
             panel1.TabIndex = 96;
             // 
+            // guna2GradientButton1
+            // 
+            guna2GradientButton1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            guna2GradientButton1.BorderRadius = 25;
+            guna2GradientButton1.CustomizableEdges = customizableEdges7;
+            guna2GradientButton1.DisabledState.BorderColor = Color.DarkGray;
+            guna2GradientButton1.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2GradientButton1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2GradientButton1.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            guna2GradientButton1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2GradientButton1.FillColor = Color.FromArgb(168, 187, 227);
+            guna2GradientButton1.FillColor2 = Color.FromArgb(128, 223, 217);
+            guna2GradientButton1.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2GradientButton1.ForeColor = Color.White;
+            guna2GradientButton1.Location = new Point(16, 53);
+            guna2GradientButton1.Name = "guna2GradientButton1";
+            guna2GradientButton1.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            guna2GradientButton1.Size = new Size(420, 52);
+            guna2GradientButton1.TabIndex = 100;
+            guna2GradientButton1.Text = "Lưu Thay Đổi";
+            // 
+            // label3
+            // 
+            label3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            label3.AutoSize = true;
+            label3.Font = new Font("Arial", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(314, 16);
+            label3.Name = "label3";
+            label3.Size = new Size(126, 22);
+            label3.TabIndex = 99;
+            label3.Text = "000.000 VND";
+            label3.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Arial", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            label9.Location = new Point(12, 14);
+            label9.Name = "label9";
+            label9.Size = new Size(111, 22);
+            label9.TabIndex = 98;
+            label9.Text = "Tổng cộng";
+            // 
             // label2
             // 
             label2.AutoSize = true;
@@ -250,86 +293,6 @@
             tableLayoutPanel1.Size = new Size(424, 47);
             tableLayoutPanel1.TabIndex = 98;
             // 
-            // panel2
-            // 
-            panel2.Controls.Add(label10);
-            panel2.Controls.Add(pictureBox2);
-            panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(4, 4);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(204, 39);
-            panel2.TabIndex = 0;
-            // 
-            // panel4
-            // 
-            panel4.Location = new Point(181, 847);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(200, 22);
-            panel4.TabIndex = 100;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Arial", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            label9.Location = new Point(12, 14);
-            label9.Name = "label9";
-            label9.Size = new Size(111, 22);
-            label9.TabIndex = 98;
-            label9.Text = "Tổng cộng";
-            // 
-            // label3
-            // 
-            label3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            label3.AutoSize = true;
-            label3.Font = new Font("Arial", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(314, 16);
-            label3.Name = "label3";
-            label3.Size = new Size(126, 22);
-            label3.TabIndex = 99;
-            label3.Text = "000.000 VND";
-            label3.TextAlign = ContentAlignment.MiddleRight;
-            // 
-            // guna2GradientButton1
-            // 
-            guna2GradientButton1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            guna2GradientButton1.BorderRadius = 25;
-            guna2GradientButton1.CustomizableEdges = customizableEdges7;
-            guna2GradientButton1.DisabledState.BorderColor = Color.DarkGray;
-            guna2GradientButton1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2GradientButton1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2GradientButton1.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
-            guna2GradientButton1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2GradientButton1.FillColor = Color.FromArgb(168, 187, 227);
-            guna2GradientButton1.FillColor2 = Color.FromArgb(128, 223, 217);
-            guna2GradientButton1.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            guna2GradientButton1.ForeColor = Color.White;
-            guna2GradientButton1.Location = new Point(16, 53);
-            guna2GradientButton1.Name = "guna2GradientButton1";
-            guna2GradientButton1.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            guna2GradientButton1.Size = new Size(420, 52);
-            guna2GradientButton1.TabIndex = 100;
-            guna2GradientButton1.Text = "Lưu Thay Đổi";
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = Properties.Resources.arrow_forward;
-            pictureBox2.Location = new Point(166, 6);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(25, 25);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 0;
-            pictureBox2.TabStop = false;
-            // 
-            // label10
-            // 
-            label10.Font = new Font("Arial", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label10.Location = new Point(17, 6);
-            label10.Name = "label10";
-            label10.Size = new Size(108, 26);
-            label10.TabIndex = 1;
-            label10.Text = "Tiền mặt";
-            label10.TextAlign = ContentAlignment.MiddleLeft;
-            // 
             // panel3
             // 
             panel3.Controls.Add(label12);
@@ -339,6 +302,16 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(205, 39);
             panel3.TabIndex = 1;
+            // 
+            // label12
+            // 
+            label12.Font = new Font("Arial", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label12.Location = new Point(24, 6);
+            label12.Name = "label12";
+            label12.Size = new Size(108, 26);
+            label12.TabIndex = 2;
+            label12.Text = "Khuyến mại";
+            label12.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // pictureBox3
             // 
@@ -350,15 +323,42 @@
             pictureBox3.TabIndex = 0;
             pictureBox3.TabStop = false;
             // 
-            // label12
+            // panel2
             // 
-            label12.Font = new Font("Arial", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label12.Location = new Point(24, 6);
-            label12.Name = "label12";
-            label12.Size = new Size(108, 26);
-            label12.TabIndex = 2;
-            label12.Text = "Khuyến mại";
-            label12.TextAlign = ContentAlignment.MiddleLeft;
+            panel2.Controls.Add(label10);
+            panel2.Controls.Add(pictureBox2);
+            panel2.Dock = DockStyle.Fill;
+            panel2.Location = new Point(4, 4);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(204, 39);
+            panel2.TabIndex = 0;
+            // 
+            // label10
+            // 
+            label10.Font = new Font("Arial", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label10.Location = new Point(17, 6);
+            label10.Name = "label10";
+            label10.Size = new Size(108, 26);
+            label10.TabIndex = 1;
+            label10.Text = "Tiền mặt";
+            label10.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.arrow_forward;
+            pictureBox2.Location = new Point(166, 6);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(25, 25);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 0;
+            pictureBox2.TabStop = false;
+            // 
+            // panel4
+            // 
+            panel4.Location = new Point(181, 847);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(200, 22);
+            panel4.TabIndex = 100;
             // 
             // GioHang
             // 
@@ -388,10 +388,10 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);
-            panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }

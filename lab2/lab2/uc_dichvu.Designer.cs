@@ -28,18 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel1 = new Panel();
+            lb_so_luong = new Label();
+            pic_giohang = new Guna.UI2.WinForms.Guna2PictureBox();
             btn_launchdry = new Guna.UI2.WinForms.Guna2ImageButton();
             btn_clean = new Guna.UI2.WinForms.Guna2ImageButton();
             btn_cook = new Guna.UI2.WinForms.Guna2ImageButton();
-            panelControl = new FlowLayoutPanel();
-            pic_giohang = new Guna.UI2.WinForms.Guna2PictureBox();
-            lb_so_luong = new Label();
+            panelControl = new Panel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pic_giohang).BeginInit();
             SuspendLayout();
@@ -57,6 +57,32 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(485, 82);
             panel1.TabIndex = 0;
+            // 
+            // lb_so_luong
+            // 
+            lb_so_luong.AutoSize = true;
+            lb_so_luong.BackColor = Color.FromArgb(192, 192, 255);
+            lb_so_luong.Font = new Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            lb_so_luong.Location = new Point(459, 15);
+            lb_so_luong.Name = "lb_so_luong";
+            lb_so_luong.Size = new Size(14, 15);
+            lb_so_luong.TabIndex = 4;
+            lb_so_luong.Text = "1";
+            // 
+            // pic_giohang
+            // 
+            pic_giohang.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            pic_giohang.CustomizableEdges = customizableEdges1;
+            pic_giohang.Image = Properties.Resources.cart;
+            pic_giohang.ImageRotate = 0F;
+            pic_giohang.Location = new Point(422, 15);
+            pic_giohang.Name = "pic_giohang";
+            pic_giohang.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            pic_giohang.Size = new Size(50, 50);
+            pic_giohang.SizeMode = PictureBoxSizeMode.StretchImage;
+            pic_giohang.TabIndex = 3;
+            pic_giohang.TabStop = false;
+            pic_giohang.Click += pic_giohang_Click;
             // 
             // btn_launchdry
             // 
@@ -111,37 +137,9 @@
             panelControl.AutoScroll = true;
             panelControl.BackColor = Color.White;
             panelControl.Location = new Point(0, 82);
-            panelControl.Margin = new Padding(5);
             panelControl.Name = "panelControl";
             panelControl.Size = new Size(485, 583);
             panelControl.TabIndex = 1;
-            panelControl.Paint += panelControl_Paint;
-            // 
-            // pic_giohang
-            // 
-            pic_giohang.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            pic_giohang.CustomizableEdges = customizableEdges1;
-            pic_giohang.Image = Properties.Resources.cart;
-            pic_giohang.ImageRotate = 0F;
-            pic_giohang.Location = new Point(422, 15);
-            pic_giohang.Name = "pic_giohang";
-            pic_giohang.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            pic_giohang.Size = new Size(50, 50);
-            pic_giohang.SizeMode = PictureBoxSizeMode.StretchImage;
-            pic_giohang.TabIndex = 3;
-            pic_giohang.TabStop = false;
-            pic_giohang.Click += pic_giohang_Click;
-            // 
-            // lb_so_luong
-            // 
-            lb_so_luong.AutoSize = true;
-            lb_so_luong.BackColor = Color.FromArgb(192, 192, 255);
-            lb_so_luong.Font = new Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            lb_so_luong.Location = new Point(459, 15);
-            lb_so_luong.Name = "lb_so_luong";
-            lb_so_luong.Size = new Size(14, 15);
-            lb_so_luong.TabIndex = 4;
-            lb_so_luong.Text = "1";
             // 
             // uc_dichvu
             // 
@@ -164,8 +162,8 @@
         private Guna.UI2.WinForms.Guna2ImageButton btn_launchdry;
         private Guna.UI2.WinForms.Guna2ImageButton btn_clean;
         private Guna.UI2.WinForms.Guna2ImageButton btn_cook;
-        private FlowLayoutPanel panelControl;
         private Label lb_so_luong;
         private Guna.UI2.WinForms.Guna2PictureBox pic_giohang;
+        private Panel panelControl;
     }
 }
