@@ -68,7 +68,7 @@
             Controls.Add(uc_tinnhan_ava1);
             Controls.Add(uc_tinnhan_text1);
             Name = "uc_tinnhan_hotro";
-            Size = new Size(526, 62);
+            Size = new Size(450, 62);
             ((System.ComponentModel.ISupportInitialize)uc_tinnhan_ava1).EndInit();
             ResumeLayout(false);
         }

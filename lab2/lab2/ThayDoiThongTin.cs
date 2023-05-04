@@ -46,7 +46,7 @@ namespace lab2
             form.ShowDialog();
             this.Close();
         }
-
+        //chatTuVan.txt
         private void btn_dangnhap_Click(object sender, EventArgs e)
         {
             string[] lines = File.ReadAllLines("userData.txt");

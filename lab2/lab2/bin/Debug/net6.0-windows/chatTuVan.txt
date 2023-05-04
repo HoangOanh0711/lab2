@@ -1,0 +1,8 @@
+0	NgDung	Xin chào
+1	HoTro		Cảm ơn anh/chị đã liên hệ đến trung tâm hỗ trợ, em là Bông - Sẵn sàng hỗ trợ anh/chị ạ.
+2	NgDung	Xin chào
+3	HoTro		Cảm ơn anh/chị đã liên hệ đến trung tâm hỗ trợ, em là Bông - Sẵn sàng hỗ trợ anh/chị ạ.
+4	NgDung	Xin chào
+5	HoTro		Cảm ơn anh/chị đã liên hệ đến trung tâm hỗ trợ, em là Bông - Sẵn sàng hỗ trợ anh/chị ạ.
+6	NgDung	Xin chào
+7	HoTro		Cảm ơn anh/chị đã liên hệ đến trung tâm hỗ trợ, em là Bông - Sẵn sàng hỗ trợ anh/chị ạ.

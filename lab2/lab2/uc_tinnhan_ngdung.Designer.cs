@@ -35,7 +35,7 @@
             // 
             uc_tinnhan_text2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             uc_tinnhan_text2.BackColor = Color.FromArgb(192, 192, 255);
-            uc_tinnhan_text2.Location = new Point(76, 9);
+            uc_tinnhan_text2.Location = new Point(66, 9);
             uc_tinnhan_text2.Margin = new Padding(4, 0, 4, 0);
             uc_tinnhan_text2.Name = "uc_tinnhan_text2";
             uc_tinnhan_text2.Size = new Size(384, 50);
@@ -52,7 +52,7 @@
             Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             Margin = new Padding(4);
             Name = "uc_tinnhan_ngdung";
-            Size = new Size(460, 67);
+            Size = new Size(450, 67);
             ResumeLayout(false);
         }
 
