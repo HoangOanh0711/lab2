@@ -112,7 +112,6 @@
             // 
             // guna2Panel2
             // 
-            guna2Panel2.AutoScroll = true;
             guna2Panel2.BackColor = Color.AntiqueWhite;
             guna2Panel2.Controls.Add(controlPanel);
             guna2Panel2.Controls.Add(guna2Panel3);
@@ -127,6 +126,7 @@
             // controlPanel
             // 
             controlPanel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            controlPanel.AutoScroll = true;
             controlPanel.Location = new Point(12, 52);
             controlPanel.Name = "controlPanel";
             controlPanel.Size = new Size(461, 578);

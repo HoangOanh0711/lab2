@@ -98,5 +98,12 @@ namespace lab2
         {
 
         }
+
+        private void pic_giohang_Click(object sender, EventArgs e)
+        {
+            GioHang gioHang = new GioHang();
+            gioHang.ShowDialog();
+           
+        }
     }
 }

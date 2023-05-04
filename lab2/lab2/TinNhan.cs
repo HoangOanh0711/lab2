@@ -59,7 +59,7 @@ namespace lab2
                 case "123": ThemTinNhanHoTro("chào123"); break;
             }
             text_input.Clear();
-            
+
         }
     }
 }
