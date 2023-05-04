@@ -1,18 +1,29 @@
+using Microsoft.VisualBasic.ApplicationServices;
 using System.Data;
 
 namespace lab2
 {
     public partial class Form1 : Form
     {
-        DataTable dt;
-        string username;
-        string pass;
+        private DataTable _dt;
+        private string _username, _pass;
+        public DataRow[] dataRow;
+
         public Form1(DataTable dt, string username, string pass )
         {
             InitializeComponent();
-            this.dt = dt;
-            this.username = username;
-            this.pass = pass;
+            _dt = dt;
+            _username = username;
+            _pass = pass;
+            //string s = "pass= '" + _pass + "'and (phone = '" + _username + "' or email = '" + _username + "')";
+            //dataRow = _dt.Select( s );
+
+            //fullname = dataRow[0].ItemArray[0].ToString();
+            //email = dataRow[0].ItemArray[1].ToString();
+            //phone = dataRow[0].ItemArray[2].ToString();
+            //address = dataRow[0].ItemArray[3].ToString();
+            //password = dataRow[0].ItemArray[4].ToString();
+
         }
 
         private void addUserControl(UserControl userControl)
@@ -24,7 +35,7 @@ namespace lab2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            uc_trangchu uc_Trangchu = new uc_trangchu(username);
+            uc_trangchu uc_Trangchu = new uc_trangchu(_dt,_username,_pass);
             addUserControl(uc_Trangchu);
             btn_trangchu.Checked = true;
             btn_dichvu.Checked = false;
@@ -34,7 +45,7 @@ namespace lab2
 
         private void btn_trangchu_Click(object sender, EventArgs e)
         {
-            uc_trangchu uc_Trangchu = new uc_trangchu(username);
+            uc_trangchu uc_Trangchu = new uc_trangchu(_dt, _username, _pass);
             addUserControl(uc_Trangchu);
             btn_trangchu.Checked = true;
             btn_dichvu.Checked = false;
@@ -65,7 +76,7 @@ namespace lab2
 
         private void btn_taikhoan_Click(object sender, EventArgs e)
         {
-            uc_taikhoan uc_Taikhoan = new uc_taikhoan();
+            uc_taikhoan uc_Taikhoan = new uc_taikhoan(_dt, _username, _pass);
             addUserControl(uc_Taikhoan);
             btn_trangchu.Checked = false;
             btn_dichvu.Checked = false;

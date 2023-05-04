@@ -15,7 +15,9 @@ namespace lab2
 
         public int ImageNumber = 1;
 
-        string username;
+        private DataTable _dt;
+        private string _username, _pass;
+        public DataRow[] dataRow;
         private void LoadNextImages()
         {
             timer1.Start();
@@ -27,10 +29,16 @@ namespace lab2
             img_slide.ImageLocation = string.Format(@"G:\Oanhhh\c#\lab2-git\lab2\lab2\Resources\" + ImageNumber + ".jpg");
         }
 
-        public uc_trangchu(string username)
+        public uc_trangchu(DataTable dt, string username, string pass)
         {
             InitializeComponent();
-            this.username = username;
+            _dt = dt;
+            _username = username;
+            _pass = pass;
+            string s = "pass= '" + _pass + "'and (phone = '" + _username + "' or email = '" + _username + "')";
+            dataRow = _dt.Select( s );
+            lb_ten.Text = "Xin chào " + dataRow[0].ItemArray[0].ToString() + "!";
+            label2.Text = dataRow[0].ItemArray[3].ToString();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -40,7 +48,6 @@ namespace lab2
 
         private void uc_trangchu_Load(object sender, EventArgs e)
         {
-            lb_ten.Text = "Xin chào " + username +"!";
             img_slide.ImageLocation = string.Format(@"G:\Oanhhh\c#\lab2-git\lab2\lab2\Resources\" + ImageNumber + ".jpg");
         }
 

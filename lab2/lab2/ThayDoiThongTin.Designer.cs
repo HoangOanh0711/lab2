@@ -48,7 +48,6 @@
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             pictureBox1 = new PictureBox();
             label1 = new Label();
-            tk_tentk = new Label();
             tk_avatartk = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             tb_matKhau = new Guna.UI2.WinForms.Guna2TextBox();
             tb_email = new Guna.UI2.WinForms.Guna2TextBox();
@@ -56,19 +55,13 @@
             tb_soDT = new Guna.UI2.WinForms.Guna2TextBox();
             label2 = new Label();
             label3 = new Label();
-            label4 = new Label();
-            tb_vitri = new Guna.UI2.WinForms.Guna2Panel();
-            label8 = new Label();
-            label7 = new Label();
-            label6 = new Label();
             tb_nhaplai = new Guna.UI2.WinForms.Guna2TextBox();
             panel1 = new Panel();
-            label5 = new Label();
             btn_dangnhap = new Guna.UI2.WinForms.Guna2GradientButton();
+            tb_diaChi = new Guna.UI2.WinForms.Guna2TextBox();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)tk_avatartk).BeginInit();
-            tb_vitri.SuspendLayout();
             SuspendLayout();
             // 
             // guna2Panel1
@@ -107,16 +100,6 @@
             label1.TabIndex = 0;
             label1.Text = "Hồ sơ";
             // 
-            // tk_tentk
-            // 
-            tk_tentk.AutoSize = true;
-            tk_tentk.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            tk_tentk.Location = new Point(195, 175);
-            tk_tentk.Name = "tk_tentk";
-            tk_tentk.Size = new Size(104, 22);
-            tk_tentk.TabIndex = 3;
-            tk_tentk.Text = "Username";
-            // 
             // tk_avatartk
             // 
             tk_avatartk.FillColor = Color.Transparent;
@@ -147,7 +130,7 @@
             tb_matKhau.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             tb_matKhau.ForeColor = Color.Black;
             tb_matKhau.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tb_matKhau.Location = new Point(26, 470);
+            tb_matKhau.Location = new Point(26, 532);
             tb_matKhau.Margin = new Padding(4, 4, 4, 4);
             tb_matKhau.Name = "tb_matKhau";
             tb_matKhau.PasswordChar = '*';
@@ -155,7 +138,7 @@
             tb_matKhau.PlaceholderText = "Mật khẩu mới";
             tb_matKhau.SelectedText = "";
             tb_matKhau.ShadowDecoration.CustomizableEdges = customizableEdges5;
-            tb_matKhau.Size = new Size(409, 43);
+            tb_matKhau.Size = new Size(416, 43);
             tb_matKhau.TabIndex = 84;
             // 
             // tb_email
@@ -174,7 +157,7 @@
             tb_email.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             tb_email.ForeColor = Color.Black;
             tb_email.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tb_email.Location = new Point(26, 366);
+            tb_email.Location = new Point(26, 352);
             tb_email.Margin = new Padding(4, 4, 4, 4);
             tb_email.Name = "tb_email";
             tb_email.PasswordChar = '\0';
@@ -182,7 +165,7 @@
             tb_email.PlaceholderText = "Email";
             tb_email.SelectedText = "";
             tb_email.ShadowDecoration.CustomizableEdges = customizableEdges7;
-            tb_email.Size = new Size(409, 43);
+            tb_email.Size = new Size(417, 43);
             tb_email.TabIndex = 83;
             // 
             // tb_hoTen
@@ -201,7 +184,7 @@
             tb_hoTen.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             tb_hoTen.ForeColor = Color.Black;
             tb_hoTen.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tb_hoTen.Location = new Point(26, 264);
+            tb_hoTen.Location = new Point(26, 250);
             tb_hoTen.Margin = new Padding(4, 4, 4, 4);
             tb_hoTen.Name = "tb_hoTen";
             tb_hoTen.PasswordChar = '\0';
@@ -209,7 +192,7 @@
             tb_hoTen.PlaceholderText = "Họ và tên";
             tb_hoTen.SelectedText = "";
             tb_hoTen.ShadowDecoration.CustomizableEdges = customizableEdges9;
-            tb_hoTen.Size = new Size(409, 43);
+            tb_hoTen.Size = new Size(417, 43);
             tb_hoTen.TabIndex = 82;
             // 
             // tb_soDT
@@ -228,7 +211,7 @@
             tb_soDT.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             tb_soDT.ForeColor = Color.Black;
             tb_soDT.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tb_soDT.Location = new Point(25, 315);
+            tb_soDT.Location = new Point(26, 301);
             tb_soDT.Margin = new Padding(4, 4, 4, 4);
             tb_soDT.Name = "tb_soDT";
             tb_soDT.PasswordChar = '\0';
@@ -236,14 +219,14 @@
             tb_soDT.PlaceholderText = "Số điện thoại";
             tb_soDT.SelectedText = "";
             tb_soDT.ShadowDecoration.CustomizableEdges = customizableEdges11;
-            tb_soDT.Size = new Size(410, 43);
+            tb_soDT.Size = new Size(417, 43);
             tb_soDT.TabIndex = 80;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(26, 231);
+            label2.Location = new Point(26, 217);
             label2.Name = "label2";
             label2.Size = new Size(165, 18);
             label2.TabIndex = 85;
@@ -253,68 +236,11 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(26, 437);
+            label3.Location = new Point(26, 499);
             label3.Name = "label3";
             label3.Size = new Size(89, 18);
             label3.TabIndex = 86;
             label3.Text = "MẬT KHẨU";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(26, 592);
-            label4.Name = "label4";
-            label4.Size = new Size(114, 18);
-            label4.TabIndex = 87;
-            label4.Text = "VỊ TRÍ ĐÃ LƯU";
-            // 
-            // tb_vitri
-            // 
-            tb_vitri.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            tb_vitri.BackColor = Color.Transparent;
-            tb_vitri.BorderColor = Color.Gray;
-            tb_vitri.BorderRadius = 10;
-            tb_vitri.BorderThickness = 1;
-            tb_vitri.Controls.Add(label8);
-            tb_vitri.Controls.Add(label7);
-            tb_vitri.Controls.Add(label6);
-            tb_vitri.CustomizableEdges = customizableEdges12;
-            tb_vitri.FillColor = Color.White;
-            tb_vitri.Location = new Point(26, 624);
-            tb_vitri.Name = "tb_vitri";
-            tb_vitri.ShadowDecoration.CustomizableEdges = customizableEdges13;
-            tb_vitri.Size = new Size(410, 133);
-            tb_vitri.TabIndex = 88;
-            // 
-            // label8
-            // 
-            label8.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.Location = new Point(17, 73);
-            label8.Name = "label8";
-            label8.Size = new Size(366, 61);
-            label8.TabIndex = 2;
-            label8.Text = "142/5 Nguyễn Kim, phường 6, quận 10, TP. Hồ Chí Minh";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(17, 45);
-            label7.Name = "label7";
-            label7.Size = new Size(98, 18);
-            label7.TabIndex = 1;
-            label7.Text = "0775751613";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(17, 16);
-            label6.Name = "label6";
-            label6.Size = new Size(162, 18);
-            label6.TabIndex = 0;
-            label6.Text = "Bùi Xuân Hoàng Oanh";
             // 
             // tb_nhaplai
             // 
@@ -322,7 +248,7 @@
             tb_nhaplai.BackColor = Color.Transparent;
             tb_nhaplai.BorderColor = Color.Gray;
             tb_nhaplai.BorderRadius = 10;
-            tb_nhaplai.CustomizableEdges = customizableEdges14;
+            tb_nhaplai.CustomizableEdges = customizableEdges12;
             tb_nhaplai.DefaultText = "";
             tb_nhaplai.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tb_nhaplai.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -332,40 +258,29 @@
             tb_nhaplai.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             tb_nhaplai.ForeColor = Color.Black;
             tb_nhaplai.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tb_nhaplai.Location = new Point(27, 521);
+            tb_nhaplai.Location = new Point(27, 583);
             tb_nhaplai.Margin = new Padding(4, 4, 4, 4);
             tb_nhaplai.Name = "tb_nhaplai";
             tb_nhaplai.PasswordChar = '*';
             tb_nhaplai.PlaceholderForeColor = Color.Gray;
             tb_nhaplai.PlaceholderText = "Nhập lại mật khẩu mới";
             tb_nhaplai.SelectedText = "";
-            tb_nhaplai.ShadowDecoration.CustomizableEdges = customizableEdges15;
-            tb_nhaplai.Size = new Size(409, 43);
+            tb_nhaplai.ShadowDecoration.CustomizableEdges = customizableEdges13;
+            tb_nhaplai.Size = new Size(416, 43);
             tb_nhaplai.TabIndex = 89;
             // 
             // panel1
             // 
-            panel1.Location = new Point(25, 929);
+            panel1.Location = new Point(27, 784);
             panel1.Name = "panel1";
-            panel1.Size = new Size(200, 55);
+            panel1.Size = new Size(200, 31);
             panel1.TabIndex = 90;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.ForeColor = Color.Green;
-            label5.Location = new Point(27, 767);
-            label5.Name = "label5";
-            label5.Size = new Size(152, 19);
-            label5.TabIndex = 91;
-            label5.Text = "+ Thêm địa chỉ mới";
             // 
             // btn_dangnhap
             // 
             btn_dangnhap.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             btn_dangnhap.BorderRadius = 25;
-            btn_dangnhap.CustomizableEdges = customizableEdges16;
+            btn_dangnhap.CustomizableEdges = customizableEdges14;
             btn_dangnhap.DisabledState.BorderColor = Color.DarkGray;
             btn_dangnhap.DisabledState.CustomBorderColor = Color.DarkGray;
             btn_dangnhap.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -375,13 +290,40 @@
             btn_dangnhap.FillColor2 = Color.FromArgb(128, 223, 217);
             btn_dangnhap.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btn_dangnhap.ForeColor = Color.White;
-            btn_dangnhap.Location = new Point(119, 843);
+            btn_dangnhap.Location = new Point(146, 681);
             btn_dangnhap.Name = "btn_dangnhap";
-            btn_dangnhap.ShadowDecoration.CustomizableEdges = customizableEdges17;
-            btn_dangnhap.Size = new Size(218, 52);
+            btn_dangnhap.ShadowDecoration.CustomizableEdges = customizableEdges15;
+            btn_dangnhap.Size = new Size(167, 52);
             btn_dangnhap.TabIndex = 92;
             btn_dangnhap.Text = "Lưu Thay Đổi";
             btn_dangnhap.Click += btn_dangnhap_Click;
+            // 
+            // tb_diaChi
+            // 
+            tb_diaChi.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            tb_diaChi.BackColor = Color.Transparent;
+            tb_diaChi.BorderColor = Color.Gray;
+            tb_diaChi.BorderRadius = 10;
+            tb_diaChi.CustomizableEdges = customizableEdges16;
+            tb_diaChi.DefaultText = "";
+            tb_diaChi.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            tb_diaChi.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            tb_diaChi.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            tb_diaChi.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            tb_diaChi.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            tb_diaChi.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            tb_diaChi.ForeColor = Color.Black;
+            tb_diaChi.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            tb_diaChi.Location = new Point(26, 403);
+            tb_diaChi.Margin = new Padding(4, 4, 4, 4);
+            tb_diaChi.Name = "tb_diaChi";
+            tb_diaChi.PasswordChar = '\0';
+            tb_diaChi.PlaceholderForeColor = Color.Gray;
+            tb_diaChi.PlaceholderText = "Địa chỉ";
+            tb_diaChi.SelectedText = "";
+            tb_diaChi.ShadowDecoration.CustomizableEdges = customizableEdges17;
+            tb_diaChi.Size = new Size(417, 43);
+            tb_diaChi.TabIndex = 93;
             // 
             // ThayDoiThongTin
             // 
@@ -390,19 +332,16 @@
             AutoScroll = true;
             BackColor = Color.White;
             ClientSize = new Size(485, 743);
+            Controls.Add(tb_diaChi);
             Controls.Add(btn_dangnhap);
-            Controls.Add(label5);
             Controls.Add(panel1);
             Controls.Add(tb_nhaplai);
-            Controls.Add(tb_vitri);
-            Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(tb_matKhau);
             Controls.Add(tb_email);
             Controls.Add(tb_hoTen);
             Controls.Add(tb_soDT);
-            Controls.Add(tk_tentk);
             Controls.Add(tk_avatartk);
             Controls.Add(guna2Panel1);
             FormBorderStyle = FormBorderStyle.None;
@@ -413,8 +352,6 @@
             guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)tk_avatartk).EndInit();
-            tb_vitri.ResumeLayout(false);
-            tb_vitri.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -424,7 +361,6 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Label label1;
         private PictureBox pictureBox1;
-        private Label tk_tentk;
         private Guna.UI2.WinForms.Guna2CirclePictureBox tk_avatartk;
         private Guna.UI2.WinForms.Guna2TextBox tb_matKhau;
         private Guna.UI2.WinForms.Guna2TextBox tb_email;
@@ -432,14 +368,9 @@
         private Guna.UI2.WinForms.Guna2TextBox tb_soDT;
         private Label label2;
         private Label label3;
-        private Label label4;
-        private Guna.UI2.WinForms.Guna2Panel tb_vitri;
         private Guna.UI2.WinForms.Guna2TextBox tb_nhaplai;
         private Panel panel1;
-        private Label label5;
         private Guna.UI2.WinForms.Guna2GradientButton btn_dangnhap;
-        private Label label8;
-        private Label label7;
-        private Label label6;
+        private Guna.UI2.WinForms.Guna2TextBox tb_diaChi;
     }
 }

@@ -206,7 +206,7 @@
             Controls.Add(radio_giat_1);
             Controls.Add(anh_giat_1);
             Name = "uc_giat";
-            Size = new Size(383, 515);
+            Size = new Size(467, 776);
             ((System.ComponentModel.ISupportInitialize)anh_giat_5).EndInit();
             ((System.ComponentModel.ISupportInitialize)anh_giat_4).EndInit();
             ((System.ComponentModel.ISupportInitialize)anh_giat_3).EndInit();

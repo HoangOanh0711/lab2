@@ -4,17 +4,33 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace lab2
 {
     public partial class ThayDoiThongTin : Form
     {
-        public ThayDoiThongTin()
+        private DataTable _dt;
+        private string _username, _pass;
+        public DataRow[] dataRow;
+        public ThayDoiThongTin(DataTable dt, string username, string pass)
         {
             InitializeComponent();
+            _dt = dt;
+            _username = username;
+            _pass = pass;
+
+            string s = "pass= '" + _pass + "'and (phone = '" + _username + "' or email = '" + _username + "')";
+            dataRow = _dt.Select(s);
+
+            tb_hoTen.Text = dataRow[0].ItemArray[0].ToString();
+            tb_email.Text = dataRow[0].ItemArray[1].ToString();
+            tb_soDT.Text = dataRow[0].ItemArray[2].ToString();
+            tb_diaChi.Text = dataRow[0].ItemArray[3].ToString();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
