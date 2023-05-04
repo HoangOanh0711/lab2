@@ -56,7 +56,7 @@ namespace lab2
 
         private void btn_dichvu_Click(object sender, EventArgs e)
         {
-            uc_dichvu uc_Dichvu = new uc_dichvu();
+            uc_dichvu uc_Dichvu = new uc_dichvu(_dt, _username, _pass);
             addUserControl(uc_Dichvu);
             btn_trangchu.Checked = false;
             btn_dichvu.Checked = true;

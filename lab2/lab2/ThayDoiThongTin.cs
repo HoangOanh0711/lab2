@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.ApplicationServices;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,6 +18,9 @@ namespace lab2
         private DataTable _dt;
         private string _username, _pass;
         public DataRow[] dataRow;
+
+        public event EventHandler Click;
+
         public ThayDoiThongTin(DataTable dt, string username, string pass)
         {
             InitializeComponent();
@@ -31,12 +35,15 @@ namespace lab2
             tb_email.Text = dataRow[0].ItemArray[1].ToString();
             tb_soDT.Text = dataRow[0].ItemArray[2].ToString();
             tb_diaChi.Text = dataRow[0].ItemArray[3].ToString();
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
             this.Hide();
+            Form1 form = new Form1(_dt, _username, _pass);
+            form.ShowDialog();
             this.Close();
         }
 
@@ -49,22 +56,38 @@ namespace lab2
 
             int index = Array.FindIndex(data, arr => arr[1] == email);
 
-            if (index == -1)
+            if (index != -1)
             {
                 data[index][0] = tb_hoTen.Text;
-                data[index][4] = tb_matKhau.Text;
+                data[index][3] = tb_diaChi.Text;
+
+                if (tb_matKhau.Text != "")
+                {
+                    data[index][4] = tb_matKhau.Text;
+                } else
+                {
+                    data[index][4] = _pass;
+                }
+                
 
                 string updateLine = string.Join("\t", data[index]);
 
                 lines[index] = updateLine;
                 File.WriteAllLines("userData.txt", lines);
                 MessageBox.Show("Cập nhật thông tin người dùng thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
+                
+                this.Hide();
+                DangNhap dangNhap = new DangNhap();
+                dangNhap.ShowDialog();
+                this.Close();
             }
             else
             {
                 MessageBox.Show("Không tìm thấy người dùng");
 
             }
+
         }
     }
 }

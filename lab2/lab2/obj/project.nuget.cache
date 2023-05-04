@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "XOhctKcXxBd6HJrnYxhGsC7RVkWL88YjmYspZvzf9D1S8mZbrA9XdFFGwYkdf6DbQNR0hXQs5S1rkhrFzwybSQ==",
+  "dgSpecHash": "PcAkIYdvxte6ad+XqUbnxtgeN0UgvHmtuKI0GHtldHxQZpaY/8jeZtJE0qo083iciJYad6QTNZMJPom5jq6jzQ==",
   "success": true,
-  "projectFilePath": "D:\\thuc_hanh\\c#\\lab2\\lab2\\lab2\\lab2.csproj",
+  "projectFilePath": "G:\\Oanhhh\\c#\\lab2-git\\lab2\\lab2\\lab2.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\hoang\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.4\\guna.ui2.winforms.2.0.4.4.nupkg.sha512",
-    "C:\\Users\\hoang\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
-    "C:\\Users\\hoang\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+    "C:\\Users\\Acer\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.4\\guna.ui2.winforms.2.0.4.4.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

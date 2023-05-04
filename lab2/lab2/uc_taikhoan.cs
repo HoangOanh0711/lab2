@@ -17,6 +17,7 @@ namespace lab2
         private DataTable _dt;
         private string _username, _pass;
         public DataRow[] dataRow;
+        public event EventHandler Click;
 
         public uc_taikhoan(DataTable dt, string username, string pass)
         {
@@ -37,6 +38,8 @@ namespace lab2
 
         private void label1_Click(object sender, EventArgs e)
         {
+            this.ParentForm?.Hide();
+            Click?.Invoke(this, e);
             ThayDoiThongTin thayDoiThongTin = new ThayDoiThongTin(_dt,_username,_pass);
             thayDoiThongTin.ShowDialog();
         }

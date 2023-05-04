@@ -13,26 +13,28 @@ namespace lab2
 {
     public partial class uc_dichvu : UserControl
     {
-        public uc_dichvu()
+        private DataTable _dt;
+        private string _username, _pass;
+        public uc_dichvu(DataTable dt, string username, string pass)
         {
             InitializeComponent();
+            _dt = dt;
+                _username = username;
+            _pass = pass;
         }
         uc_don_dep uc_Don_Dep;
         uc_nau_an uc_Nau_An;
         uc_giat uc_Giat;
         private void uc_dichvu_Load(object sender, EventArgs e)
         {
+            uc_Nau_An = new uc_nau_an();
+            panelControl.Controls.Add(uc_Nau_An);
 
             uc_Don_Dep = new uc_don_dep();
             panelControl.Controls.Add(uc_Don_Dep);
 
             uc_Giat = new uc_giat();
             panelControl.Controls.Add(uc_Giat);
-
-            uc_Nau_An = new uc_nau_an();
-            panelControl.Controls.Add(uc_Nau_An);
-
-
 
             btn_cook.Checked = true;
             btn_clean.Checked = false;
@@ -93,7 +95,7 @@ namespace lab2
 
         private void pic_giohang_Click(object sender, EventArgs e)
         {
-            GioHang gioHang = new GioHang(uc_Don_Dep.Count, uc_Giat.Count, uc_Nau_An.Count);
+            GioHang gioHang = new GioHang(uc_Don_Dep.Count, uc_Giat.Count, uc_Nau_An.Count, _dt, _username, _pass);
             gioHang.ShowDialog();
 
         }

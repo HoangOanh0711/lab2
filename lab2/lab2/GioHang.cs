@@ -12,19 +12,9 @@ namespace lab2
 {
     public partial class GioHang : Form
     {
-        public GioHang()
-        {
-            InitializeComponent();
-        }
-        public GioHang(int dondep, int giat, int nauan)
-        {
-            InitializeComponent();
-            this.dondep = dondep;
-            this.giat = giat;
-            this.nauan = nauan;
-        }
-
-
+        private DataTable _dt;
+        private string _username, _pass;
+        public DataRow[] dataRow;
 
         int giat;
         public int Giat { get => giat; set => giat = value; }
@@ -33,6 +23,26 @@ namespace lab2
         public int Nauan { get => nauan; set => nauan = value; }
 
         int dondep;
+        public int Dondep { get => dondep; set => dondep = value; }
+
+        public GioHang(int dondep, int giat, int nauan, DataTable dt, string username, string pass)
+        {
+            InitializeComponent();
+            this.dondep = dondep;
+            this.giat = giat;
+            this.nauan = nauan;
+
+            _dt = dt;
+            _username = username;
+            _pass = pass;
+
+            string s = "pass= '" + _pass + "'and (phone = '" + _username + "' or email = '" + _username + "')";
+            dataRow = _dt.Select(s);
+
+            label6.Text = dataRow[0].ItemArray[0].ToString();
+            label7.Text = dataRow[0].ItemArray[2].ToString();
+            label8.Text = dataRow[0].ItemArray[3].ToString();
+        }
 
         private void GioHang_Load(object sender, EventArgs e)
         {
@@ -113,7 +123,12 @@ namespace lab2
 
         }
 
-        public int Dondep { get => dondep; set => dondep = value; }
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            this.Close();
+        }
+
 
     }
 }
