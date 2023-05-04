@@ -16,5 +16,34 @@ namespace lab2
         {
             InitializeComponent();
         }
+
+        private void radio_nau_1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radio_nau_1.Checked == true) { count = 1; }
+        }
+
+        private int count;
+
+        private void radio_nau_2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radio_nau_2.Checked == true) { count = 2; }
+        }
+
+        private void radio_nau_3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radio_nau_3.Checked == true) { count = 3; }
+        }
+
+        private void radio_nau_4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radio_nau_4.Checked == true) { count = 4; }
+        }
+
+        private void radio_nau_5_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radio_nau_5.Checked == true) { count = 5; }
+        }
+
+        public int Count { get => count; set => count = value; }
     }
 }

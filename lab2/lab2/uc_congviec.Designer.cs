@@ -54,9 +54,12 @@
             // anh_dvu
             // 
             anh_dvu.BackColor = Color.FromArgb(255, 192, 192);
-            anh_dvu.Location = new Point(15, 15);
+            anh_dvu.BackgroundImage = Properties.Resources._13;
+            anh_dvu.BackgroundImageLayout = ImageLayout.Stretch;
+            anh_dvu.Location = new Point(17, 20);
+            anh_dvu.Margin = new Padding(3, 4, 3, 4);
             anh_dvu.Name = "anh_dvu";
-            anh_dvu.Size = new Size(80, 80);
+            anh_dvu.Size = new Size(91, 107);
             anh_dvu.SizeMode = PictureBoxSizeMode.StretchImage;
             anh_dvu.TabIndex = 2;
             anh_dvu.TabStop = false;
@@ -65,9 +68,9 @@
             // 
             ten_dvu.AutoSize = true;
             ten_dvu.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            ten_dvu.Location = new Point(114, 25);
+            ten_dvu.Location = new Point(130, 33);
             ten_dvu.Name = "ten_dvu";
-            ten_dvu.Size = new Size(54, 19);
+            ten_dvu.Size = new Size(65, 24);
             ten_dvu.TabIndex = 3;
             ten_dvu.Text = "label1";
             // 
@@ -75,9 +78,9 @@
             // 
             gia_dvu.AutoSize = true;
             gia_dvu.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            gia_dvu.Location = new Point(114, 62);
+            gia_dvu.Location = new Point(130, 83);
             gia_dvu.Name = "gia_dvu";
-            gia_dvu.Size = new Size(54, 19);
+            gia_dvu.Size = new Size(65, 24);
             gia_dvu.TabIndex = 4;
             gia_dvu.Text = "label2";
             // 
@@ -86,10 +89,11 @@
             guna2PictureBox1.CustomizableEdges = customizableEdges1;
             guna2PictureBox1.Image = Properties.Resources.close_;
             guna2PictureBox1.ImageRotate = 0F;
-            guna2PictureBox1.Location = new Point(422, 3);
+            guna2PictureBox1.Location = new Point(482, 4);
+            guna2PictureBox1.Margin = new Padding(3, 4, 3, 4);
             guna2PictureBox1.Name = "guna2PictureBox1";
             guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2PictureBox1.Size = new Size(20, 20);
+            guna2PictureBox1.Size = new Size(23, 27);
             guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             guna2PictureBox1.TabIndex = 5;
             guna2PictureBox1.TabStop = false;
@@ -102,12 +106,13 @@
             guna2DateTimePicker1.FillColor = Color.White;
             guna2DateTimePicker1.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             guna2DateTimePicker1.Format = DateTimePickerFormat.Long;
-            guna2DateTimePicker1.Location = new Point(136, 115);
+            guna2DateTimePicker1.Location = new Point(155, 153);
+            guna2DateTimePicker1.Margin = new Padding(3, 4, 3, 4);
             guna2DateTimePicker1.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             guna2DateTimePicker1.MinDate = new DateTime(2023, 5, 4, 0, 0, 0, 0);
             guna2DateTimePicker1.Name = "guna2DateTimePicker1";
             guna2DateTimePicker1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2DateTimePicker1.Size = new Size(200, 36);
+            guna2DateTimePicker1.Size = new Size(229, 48);
             guna2DateTimePicker1.TabIndex = 6;
             guna2DateTimePicker1.Value = new DateTime(2023, 5, 4, 12, 49, 49, 947);
             // 
@@ -115,9 +120,9 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(15, 121);
+            label3.Location = new Point(17, 161);
             label3.Name = "label3";
-            label3.Size = new Size(109, 18);
+            label3.Size = new Size(138, 23);
             label3.TabIndex = 7;
             label3.Text = "Ngày làm việc:";
             // 
@@ -125,9 +130,9 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(15, 170);
+            label4.Location = new Point(17, 227);
             label4.Name = "label4";
-            label4.Size = new Size(100, 18);
+            label4.Size = new Size(126, 23);
             label4.TabIndex = 8;
             label4.Text = "Giờ làm việc:";
             // 
@@ -135,9 +140,9 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(262, 170);
+            label5.Location = new Point(299, 227);
             label5.Name = "label5";
-            label5.Size = new Size(34, 18);
+            label5.Size = new Size(42, 23);
             label5.TabIndex = 9;
             label5.Text = "đến";
             // 
@@ -153,10 +158,11 @@
             gio1_dvu.ForeColor = Color.FromArgb(68, 88, 112);
             gio1_dvu.ItemHeight = 30;
             gio1_dvu.Items.AddRange(new object[] { "6:00", "7:00", "8:00", "9:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "" });
-            gio1_dvu.Location = new Point(136, 162);
+            gio1_dvu.Location = new Point(155, 216);
+            gio1_dvu.Margin = new Padding(3, 4, 3, 4);
             gio1_dvu.Name = "gio1_dvu";
             gio1_dvu.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            gio1_dvu.Size = new Size(120, 36);
+            gio1_dvu.Size = new Size(137, 36);
             gio1_dvu.TabIndex = 10;
             // 
             // gio2_dvu
@@ -171,25 +177,26 @@
             gio2_dvu.ForeColor = Color.FromArgb(68, 88, 112);
             gio2_dvu.ItemHeight = 30;
             gio2_dvu.Items.AddRange(new object[] { "6:00", "7:00", "8:00", "9:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "" });
-            gio2_dvu.Location = new Point(302, 162);
+            gio2_dvu.Location = new Point(345, 216);
+            gio2_dvu.Margin = new Padding(3, 4, 3, 4);
             gio2_dvu.Name = "gio2_dvu";
             gio2_dvu.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            gio2_dvu.Size = new Size(120, 36);
+            gio2_dvu.Size = new Size(137, 36);
             gio2_dvu.TabIndex = 11;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(241, 223);
+            label1.Location = new Point(275, 297);
             label1.Name = "label1";
-            label1.Size = new Size(190, 22);
+            label1.Size = new Size(233, 29);
             label1.TabIndex = 12;
             label1.Text = "Tạm tính: 1.000.000";
             // 
             // uc_congviec
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(label1);
             Controls.Add(gio2_dvu);
@@ -202,8 +209,9 @@
             Controls.Add(gia_dvu);
             Controls.Add(ten_dvu);
             Controls.Add(anh_dvu);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "uc_congviec";
-            Size = new Size(445, 257);
+            Size = new Size(509, 343);
             ((System.ComponentModel.ISupportInitialize)anh_dvu).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             ResumeLayout(false);

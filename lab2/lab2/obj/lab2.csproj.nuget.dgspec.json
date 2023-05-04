@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Oanhhh\\c#\\lab2-git\\lab2\\lab2\\lab2.csproj": {}
+    "D:\\thuc_hanh\\c#\\lab2\\lab2\\lab2\\lab2.csproj": {}
   },
   "projects": {
-    "G:\\Oanhhh\\c#\\lab2-git\\lab2\\lab2\\lab2.csproj": {
+    "D:\\thuc_hanh\\c#\\lab2\\lab2\\lab2\\lab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Oanhhh\\c#\\lab2-git\\lab2\\lab2\\lab2.csproj",
+        "projectUniqueName": "D:\\thuc_hanh\\c#\\lab2\\lab2\\lab2\\lab2.csproj",
         "projectName": "lab2",
-        "projectPath": "G:\\Oanhhh\\c#\\lab2-git\\lab2\\lab2\\lab2.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "G:\\Oanhhh\\c#\\lab2-git\\lab2\\lab2\\obj\\",
+        "projectPath": "D:\\thuc_hanh\\c#\\lab2\\lab2\\lab2\\lab2.csproj",
+        "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
+        "outputPath": "D:\\thuc_hanh\\c#\\lab2\\lab2\\lab2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

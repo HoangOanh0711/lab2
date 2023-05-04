@@ -17,11 +17,23 @@ namespace lab2
         {
             InitializeComponent();
         }
-
+        uc_don_dep uc_Don_Dep;
+        uc_nau_an uc_Nau_An;
+        uc_giat uc_Giat;
         private void uc_dichvu_Load(object sender, EventArgs e)
         {
-            uc_nau_an uc_Nau_An = new uc_nau_an();
-            addUserControl(uc_Nau_An);
+
+            uc_Don_Dep = new uc_don_dep();
+            panelControl.Controls.Add(uc_Don_Dep);
+
+            uc_Giat = new uc_giat();
+            panelControl.Controls.Add(uc_Giat);
+
+            uc_Nau_An = new uc_nau_an();
+            panelControl.Controls.Add(uc_Nau_An);
+
+
+
             btn_cook.Checked = true;
             btn_clean.Checked = false;
             btn_launchdry.Checked = false;
@@ -40,23 +52,25 @@ namespace lab2
 
         private void addUserControl(UserControl userControl)
         {
-            panelControl.Controls.Clear();
-            panelControl.Controls.Add(userControl);
+            /*panelControl.Controls.Clear();*/
+            /*panelControl.Controls.Add(userControl);*/
             userControl.BringToFront();
+            /* userControl.Show();*/
         }
 
         private void btn_clean_Click(object sender, EventArgs e)
         {
-            uc_don_dep uc_Don_Dep = new uc_don_dep();
+
             addUserControl(uc_Don_Dep);
             btn_cook.Checked = false;
             btn_clean.Checked = true;
             btn_launchdry.Checked = false;
+
+
         }
 
         private void btn_cook_Click(object sender, EventArgs e)
         {
-            uc_nau_an uc_Nau_An = new uc_nau_an();
             addUserControl(uc_Nau_An);
             btn_cook.Checked = true;
             btn_clean.Checked = false;
@@ -65,7 +79,7 @@ namespace lab2
 
         private void btn_launchdry_Click(object sender, EventArgs e)
         {
-            uc_giat uc_Giat = new uc_giat();
+
             addUserControl(uc_Giat);
             btn_cook.Checked = false;
             btn_clean.Checked = false;
@@ -79,7 +93,7 @@ namespace lab2
 
         private void pic_giohang_Click(object sender, EventArgs e)
         {
-            GioHang gioHang = new GioHang();
+            GioHang gioHang = new GioHang(uc_Don_Dep.Count, uc_Giat.Count, uc_Nau_An.Count);
             gioHang.ShowDialog();
 
         }
