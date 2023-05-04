@@ -46,7 +46,7 @@ namespace lab2
             panelControl.Controls.Add(new uc_item()
             {
                 tenAnh = anh,
-                anhDichVu = Image.FromFile("G:\\Oanhhh\\c#\\lab2-git\\lab2\\lab2\\Resources\\" + anh + ".jpg"),
+                anhDichVu = Image.FromFile("Resources/" + anh + ".jpg"),
                 tenDichVu = ten,
                 giaDichVu = gia,
             });
@@ -54,10 +54,9 @@ namespace lab2
 
         private void addUserControl(UserControl userControl)
         {
-            /*panelControl.Controls.Clear();*/
-            /*panelControl.Controls.Add(userControl);*/
+
             userControl.BringToFront();
-            /* userControl.Show();*/
+
         }
 
         private void btn_clean_Click(object sender, EventArgs e)

@@ -45,6 +45,7 @@
             label4 = new Label();
             label11 = new Label();
             panel1 = new Panel();
+            label13 = new Label();
             guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             label3 = new Label();
             label9 = new Label();
@@ -121,7 +122,7 @@
             tb_vitri.Location = new Point(12, 100);
             tb_vitri.Name = "tb_vitri";
             tb_vitri.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            tb_vitri.Size = new Size(423, 116);
+            tb_vitri.Size = new Size(338, 116);
             tb_vitri.TabIndex = 90;
             // 
             // label5
@@ -185,14 +186,27 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(label13);
             panel1.Controls.Add(guna2GradientButton1);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(label9);
             panel1.Dock = DockStyle.Bottom;
-            panel1.Location = new Point(0, 1466);
+            panel1.Location = new Point(0, 1240);
             panel1.Name = "panel1";
             panel1.Size = new Size(452, 125);
             panel1.TabIndex = 96;
+            // 
+            // label13
+            // 
+            label13.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            label13.AutoSize = true;
+            label13.Font = new Font("Arial", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            label13.Location = new Point(300, 14);
+            label13.Name = "label13";
+            label13.Size = new Size(81, 22);
+            label13.TabIndex = 101;
+            label13.Text = "000.000";
+            label13.TextAlign = ContentAlignment.MiddleRight;
             // 
             // guna2GradientButton1
             // 
@@ -220,11 +234,11 @@
             label3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label3.AutoSize = true;
             label3.Font = new Font("Arial", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(313, 16);
+            label3.Location = new Point(380, 14);
             label3.Name = "label3";
-            label3.Size = new Size(126, 22);
+            label3.Size = new Size(50, 22);
             label3.TabIndex = 99;
-            label3.Text = "000.000 VND";
+            label3.Text = "VND";
             label3.TextAlign = ContentAlignment.MiddleRight;
             // 
             // label9
@@ -241,7 +255,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(12, 1016);
+            label2.Location = new Point(12, 1123);
             label2.Name = "label2";
             label2.Size = new Size(199, 19);
             label2.TabIndex = 97;
@@ -255,7 +269,7 @@
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.Controls.Add(panel3, 1, 0);
             tableLayoutPanel1.Controls.Add(panel2, 0, 0);
-            tableLayoutPanel1.Location = new Point(16, 1048);
+            tableLayoutPanel1.Location = new Point(16, 1155);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
@@ -324,9 +338,9 @@
             // 
             // panel4
             // 
-            panel4.Location = new Point(181, 1118);
+            panel4.Location = new Point(186, 1228);
             panel4.Name = "panel4";
-            panel4.Size = new Size(200, 348);
+            panel4.Size = new Size(200, 12);
             panel4.TabIndex = 100;
             // 
             // flowLayoutPanel1
@@ -334,7 +348,7 @@
             flowLayoutPanel1.Location = new Point(12, 292);
             flowLayoutPanel1.Margin = new Padding(3, 2, 3, 2);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(440, 714);
+            flowLayoutPanel1.Size = new Size(440, 811);
             flowLayoutPanel1.TabIndex = 101;
             // 
             // GioHang
@@ -357,6 +371,7 @@
             Name = "GioHang";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "GioHang";
+            Load += GioHang_Load;
             guna2Panel1.ResumeLayout(false);
             guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -399,5 +414,6 @@
         private Label label10;
         private PictureBox pictureBox2;
         private FlowLayoutPanel flowLayoutPanel1;
+        private Label label13;
     }
 }

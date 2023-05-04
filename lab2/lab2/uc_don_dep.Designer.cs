@@ -62,6 +62,7 @@
             radio_don_1.UncheckedState.BorderThickness = 2;
             radio_don_1.UncheckedState.FillColor = Color.Transparent;
             radio_don_1.UncheckedState.InnerColor = Color.Transparent;
+            radio_don_1.CheckedChanged += radio_don_1_CheckedChanged_1;
             // 
             // anh_don_1
             // 
@@ -91,6 +92,7 @@
             radio_don_2.UncheckedState.BorderThickness = 2;
             radio_don_2.UncheckedState.FillColor = Color.Transparent;
             radio_don_2.UncheckedState.InnerColor = Color.Transparent;
+            radio_don_2.CheckedChanged += radio_don_2_CheckedChanged_1;
             // 
             // anh_don_2
             // 
@@ -120,6 +122,7 @@
             radio_don_3.UncheckedState.BorderThickness = 2;
             radio_don_3.UncheckedState.FillColor = Color.Transparent;
             radio_don_3.UncheckedState.InnerColor = Color.Transparent;
+            radio_don_3.CheckedChanged += radio_don_3_CheckedChanged_1;
             // 
             // anh_don_3
             // 
@@ -149,6 +152,7 @@
             radio_don_4.UncheckedState.BorderThickness = 2;
             radio_don_4.UncheckedState.FillColor = Color.Transparent;
             radio_don_4.UncheckedState.InnerColor = Color.Transparent;
+            radio_don_4.CheckedChanged += radio_don_4_CheckedChanged_1;
             // 
             // anh_don_4
             // 
@@ -178,6 +182,7 @@
             radio_don_5.UncheckedState.BorderThickness = 2;
             radio_don_5.UncheckedState.FillColor = Color.Transparent;
             radio_don_5.UncheckedState.InnerColor = Color.Transparent;
+            radio_don_5.CheckedChanged += radio_don_5_CheckedChanged_1;
             // 
             // anh_don_5
             // 
@@ -206,7 +211,7 @@
             Controls.Add(radio_don_1);
             Controls.Add(anh_don_1);
             Name = "uc_don_dep";
-            Size = new Size(417, 532);
+            Size = new Size(332, 447);
             Load += uc_don_dep_Load;
             ((System.ComponentModel.ISupportInitialize)anh_don_1).EndInit();
             ((System.ComponentModel.ISupportInitialize)anh_don_2).EndInit();

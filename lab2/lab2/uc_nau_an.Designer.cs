@@ -62,6 +62,7 @@
             radio_nau_1.UncheckedState.BorderThickness = 2;
             radio_nau_1.UncheckedState.FillColor = Color.Transparent;
             radio_nau_1.UncheckedState.InnerColor = Color.Transparent;
+            radio_nau_1.CheckedChanged += radio_nau_1_CheckedChanged_1;
             // 
             // anh_nau_1
             // 
@@ -91,6 +92,7 @@
             radio_nau_2.UncheckedState.BorderThickness = 2;
             radio_nau_2.UncheckedState.FillColor = Color.Transparent;
             radio_nau_2.UncheckedState.InnerColor = Color.Transparent;
+            radio_nau_2.CheckedChanged += radio_nau_2_CheckedChanged;
             // 
             // anh_nau_2
             // 
@@ -120,6 +122,7 @@
             radio_nau_3.UncheckedState.BorderThickness = 2;
             radio_nau_3.UncheckedState.FillColor = Color.Transparent;
             radio_nau_3.UncheckedState.InnerColor = Color.Transparent;
+            radio_nau_3.CheckedChanged += radio_nau_3_CheckedChanged;
             // 
             // anh_nau_3
             // 
@@ -149,6 +152,7 @@
             radio_nau_4.UncheckedState.BorderThickness = 2;
             radio_nau_4.UncheckedState.FillColor = Color.Transparent;
             radio_nau_4.UncheckedState.InnerColor = Color.Transparent;
+            radio_nau_4.CheckedChanged += radio_nau_4_CheckedChanged_1;
             // 
             // anh_nau_4
             // 
@@ -173,11 +177,12 @@
             radio_nau_5.Name = "radio_nau_5";
             radio_nau_5.Size = new Size(228, 50);
             radio_nau_5.TabIndex = 10;
-            radio_nau_5.Text = "guna2RadioButton1";
+            radio_nau_5.Text = "6 món - 300.000 VNĐ";
             radio_nau_5.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             radio_nau_5.UncheckedState.BorderThickness = 2;
             radio_nau_5.UncheckedState.FillColor = Color.Transparent;
             radio_nau_5.UncheckedState.InnerColor = Color.Transparent;
+            radio_nau_5.CheckedChanged += radio_nau_5_CheckedChanged_1;
             // 
             // anh_nau_5
             // 
@@ -207,7 +212,7 @@
             Controls.Add(radio_nau_1);
             Controls.Add(anh_nau_1);
             Name = "uc_nau_an";
-            Size = new Size(451, 566);
+            Size = new Size(366, 481);
             ((System.ComponentModel.ISupportInitialize)anh_nau_1).EndInit();
             ((System.ComponentModel.ISupportInitialize)anh_nau_2).EndInit();
             ((System.ComponentModel.ISupportInitialize)anh_nau_3).EndInit();

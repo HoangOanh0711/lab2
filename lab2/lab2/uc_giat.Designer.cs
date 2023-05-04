@@ -62,6 +62,7 @@
             radio_giat_5.UncheckedState.BorderThickness = 2;
             radio_giat_5.UncheckedState.FillColor = Color.Transparent;
             radio_giat_5.UncheckedState.InnerColor = Color.Transparent;
+            radio_giat_5.CheckedChanged += radio_giat_5_CheckedChanged_1;
             // 
             // anh_giat_5
             // 
@@ -91,6 +92,7 @@
             radio_giat_4.UncheckedState.BorderThickness = 2;
             radio_giat_4.UncheckedState.FillColor = Color.Transparent;
             radio_giat_4.UncheckedState.InnerColor = Color.Transparent;
+            radio_giat_4.CheckedChanged += radio_giat_4_CheckedChanged_1;
             // 
             // anh_giat_4
             // 
@@ -120,6 +122,7 @@
             radio_giat_3.UncheckedState.BorderThickness = 2;
             radio_giat_3.UncheckedState.FillColor = Color.Transparent;
             radio_giat_3.UncheckedState.InnerColor = Color.Transparent;
+            radio_giat_3.CheckedChanged += radio_giat_3_CheckedChanged_1;
             // 
             // anh_giat_3
             // 
@@ -149,6 +152,7 @@
             radio_giat_2.UncheckedState.BorderThickness = 2;
             radio_giat_2.UncheckedState.FillColor = Color.Transparent;
             radio_giat_2.UncheckedState.InnerColor = Color.Transparent;
+            radio_giat_2.CheckedChanged += radio_giat_2_CheckedChanged_1;
             // 
             // anh_giat_2
             // 
@@ -178,6 +182,7 @@
             radio_giat_1.UncheckedState.BorderThickness = 2;
             radio_giat_1.UncheckedState.FillColor = Color.Transparent;
             radio_giat_1.UncheckedState.InnerColor = Color.Transparent;
+            radio_giat_1.CheckedChanged += radio_giat_1_CheckedChanged_1;
             // 
             // anh_giat_1
             // 
@@ -206,7 +211,7 @@
             Controls.Add(radio_giat_1);
             Controls.Add(anh_giat_1);
             Name = "uc_giat";
-            Size = new Size(467, 776);
+            Size = new Size(382, 691);
             ((System.ComponentModel.ISupportInitialize)anh_giat_5).EndInit();
             ((System.ComponentModel.ISupportInitialize)anh_giat_4).EndInit();
             ((System.ComponentModel.ISupportInitialize)anh_giat_3).EndInit();
